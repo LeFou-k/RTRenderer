@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="RayTracingTheNextWeek"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/graphics/projects/RayTracingTheNextWeek/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f E:\graphics\projects\RayTracingTheNextWeek\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f E:\graphics\projects\RayTracingTheNextWeek\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f E:\graphics\projects\RayTracingTheNextWeek\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f E:\graphics\projects\RayTracingTheNextWeek\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Canvas">
+				<Option output="E:/graphics/projects/RayTracingTheNextWeek/cmake-build-debug/Canvas.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="E:/graphics/projects/RayTracingTheNextWeek/./include"/>
+					<Add directory="E:/graphics/projects/RayTracingTheNextWeek/./external"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f E:\graphics\projects\RayTracingTheNextWeek\cmake-build-debug\Makefile VERBOSE=1 Canvas"/>
+					<CompileFile command="nmake /NOLOGO /f E:\graphics\projects\RayTracingTheNextWeek\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f E:\graphics\projects\RayTracingTheNextWeek\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f E:\graphics\projects\RayTracingTheNextWeek\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Canvas/fast">
+				<Option output="E:/graphics/projects/RayTracingTheNextWeek/cmake-build-debug/Canvas.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="E:/graphics/projects/RayTracingTheNextWeek/./include"/>
+					<Add directory="E:/graphics/projects/RayTracingTheNextWeek/./external"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f E:\graphics\projects\RayTracingTheNextWeek\cmake-build-debug\Makefile VERBOSE=1 Canvas/fast"/>
+					<CompileFile command="nmake /NOLOGO /f E:\graphics\projects\RayTracingTheNextWeek\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f E:\graphics\projects\RayTracingTheNextWeek\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f E:\graphics\projects\RayTracingTheNextWeek\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/graphics/projects/RayTracingTheNextWeek/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f E:\graphics\projects\RayTracingTheNextWeek\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f E:\graphics\projects\RayTracingTheNextWeek\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f E:\graphics\projects\RayTracingTheNextWeek\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f E:\graphics\projects\RayTracingTheNextWeek\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/graphics/projects/RayTracingTheNextWeek/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f E:\graphics\projects\RayTracingTheNextWeek\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f E:\graphics\projects\RayTracingTheNextWeek\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f E:\graphics\projects\RayTracingTheNextWeek\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f E:\graphics\projects\RayTracingTheNextWeek\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/graphics/projects/RayTracingTheNextWeek/src/aabb.cpp">
+			<Option target="Canvas"/>
+		</Unit>
+		<Unit filename="E:/graphics/projects/RayTracingTheNextWeek/src/box.cpp">
+			<Option target="Canvas"/>
+		</Unit>
+		<Unit filename="E:/graphics/projects/RayTracingTheNextWeek/src/bvh.cpp">
+			<Option target="Canvas"/>
+		</Unit>
+		<Unit filename="E:/graphics/projects/RayTracingTheNextWeek/src/camera.cpp">
+			<Option target="Canvas"/>
+		</Unit>
+		<Unit filename="E:/graphics/projects/RayTracingTheNextWeek/src/checker.cpp">
+			<Option target="Canvas"/>
+		</Unit>
+		<Unit filename="E:/graphics/projects/RayTracingTheNextWeek/src/dielectric.cpp">
+			<Option target="Canvas"/>
+		</Unit>
+		<Unit filename="E:/graphics/projects/RayTracingTheNextWeek/src/hittablelist.cpp">
+			<Option target="Canvas"/>
+		</Unit>
+		<Unit filename="E:/graphics/projects/RayTracingTheNextWeek/src/image_texture.cpp">
+			<Option target="Canvas"/>
+		</Unit>
+		<Unit filename="E:/graphics/projects/RayTracingTheNextWeek/src/lambertian.cpp">
+			<Option target="Canvas"/>
+		</Unit>
+		<Unit filename="E:/graphics/projects/RayTracingTheNextWeek/src/main.cpp">
+			<Option target="Canvas"/>
+		</Unit>
+		<Unit filename="E:/graphics/projects/RayTracingTheNextWeek/src/metal.cpp">
+			<Option target="Canvas"/>
+		</Unit>
+		<Unit filename="E:/graphics/projects/RayTracingTheNextWeek/src/moving_sphere.cpp">
+			<Option target="Canvas"/>
+		</Unit>
+		<Unit filename="E:/graphics/projects/RayTracingTheNextWeek/src/noise.cpp">
+			<Option target="Canvas"/>
+		</Unit>
+		<Unit filename="E:/graphics/projects/RayTracingTheNextWeek/src/perlin.cpp">
+			<Option target="Canvas"/>
+		</Unit>
+		<Unit filename="E:/graphics/projects/RayTracingTheNextWeek/src/rotate.cpp">
+			<Option target="Canvas"/>
+		</Unit>
+		<Unit filename="E:/graphics/projects/RayTracingTheNextWeek/src/sphere.cpp">
+			<Option target="Canvas"/>
+		</Unit>
+		<Unit filename="E:/graphics/projects/RayTracingTheNextWeek/src/translate.cpp">
+			<Option target="Canvas"/>
+		</Unit>
+		<Unit filename="E:/graphics/projects/RayTracingTheNextWeek/src/xy_rect.cpp">
+			<Option target="Canvas"/>
+		</Unit>
+		<Unit filename="E:/graphics/projects/RayTracingTheNextWeek/src/xz_rect.cpp">
+			<Option target="Canvas"/>
+		</Unit>
+		<Unit filename="E:/graphics/projects/RayTracingTheNextWeek/src/yz_rect.cpp">
+			<Option target="Canvas"/>
+		</Unit>
+		<Unit filename="E:/graphics/projects/RayTracingTheNextWeek/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
