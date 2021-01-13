@@ -15,13 +15,11 @@ Rendering images are as follows:
 
 **RayTracingInOneWeekend final output with spp500**
 
-![Weekend_final_spp500](image\Weekend_final_spp500.jpg)
-
-
+![Weekend_final_spp500](image/Weekend_final_spp500.jpg)
 
 **RayTracingInOneWeek final output with spp20000**
 
-![final_pink_spp20000](image\final_pink_spp20000.jpg)
+![final_pink_spp20000](image/final_pink_spp20000.jpg)
 
 
 
