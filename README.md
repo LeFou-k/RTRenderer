@@ -15,16 +15,17 @@ Rendering images are as follows:
 
 **RayTracingInOneWeekend final output with spp500**
 
-![Weekend_final_spp500](E:\graphics\projects\RayTracingTheRestOfYourLife\image\Weekend_final_spp500.jpg)
+![Weekend_final_spp500](image\Weekend_final_spp500.jpg)
 
 
 
 **RayTracingInOneWeek final output with spp20000**
 
-![final_pink_spp20000](E:\graphics\projects\RayTracingTheRestOfYourLife\image\final_pink_spp20000.jpg)
+![final_pink_spp20000](image\final_pink_spp20000.jpg)
 
 
 
 **RayTracing: Rest of your life with 10000spp(also as cornell box)**
 
-![CornellBox_final_spp10000](E:\graphics\projects\RayTracingTheRestOfYourLife\image\CornellBox_final_spp10000.jpg)
+![CornellBox_final_spp10000](image/CornellBox_final_spp10000.jpg)
+
