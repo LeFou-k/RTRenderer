@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/mnt/e/graphics/projects/RayTracingTheNextWeek/src/bvh.cpp" "/mnt/e/graphics/projects/RayTracingTheNextWeek/build/CMakeFiles/Canvas.dir/src/bvh.o"
   "/mnt/e/graphics/projects/RayTracingTheNextWeek/src/camera.cpp" "/mnt/e/graphics/projects/RayTracingTheNextWeek/build/CMakeFiles/Canvas.dir/src/camera.o"
   "/mnt/e/graphics/projects/RayTracingTheNextWeek/src/checker.cpp" "/mnt/e/graphics/projects/RayTracingTheNextWeek/build/CMakeFiles/Canvas.dir/src/checker.o"
+  "/mnt/e/graphics/projects/RayTracingTheNextWeek/src/constant_medium.cpp" "/mnt/e/graphics/projects/RayTracingTheNextWeek/build/CMakeFiles/Canvas.dir/src/constant_medium.o"
   "/mnt/e/graphics/projects/RayTracingTheNextWeek/src/dielectric.cpp" "/mnt/e/graphics/projects/RayTracingTheNextWeek/build/CMakeFiles/Canvas.dir/src/dielectric.o"
   "/mnt/e/graphics/projects/RayTracingTheNextWeek/src/hittablelist.cpp" "/mnt/e/graphics/projects/RayTracingTheNextWeek/build/CMakeFiles/Canvas.dir/src/hittablelist.o"
   "/mnt/e/graphics/projects/RayTracingTheNextWeek/src/image_texture.cpp" "/mnt/e/graphics/projects/RayTracingTheNextWeek/build/CMakeFiles/Canvas.dir/src/image_texture.o"
@@ -29,6 +30,8 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  ".././include"
+  ".././external"
   )
 
 # Targets to which this target links.

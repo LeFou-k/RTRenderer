@@ -42,7 +42,7 @@ public:
         return v[0] * v[0] + v[1] * v[1] + v[2] * v[2];
     }
     inline double length() const{
-        return sqrt(length_squared());
+        return sqrt(v[0] * v[0] + v[1] * v[1] + v[2] * v[2]);
     }
     inline bool near_zero() const{
         const double e = 1e-8;
@@ -135,5 +135,28 @@ inline vec3 refract(const vec3& in, const vec3& n, double etai_over_etat)
     vec3 output_vertical = etai_over_etat * (in + n * cos_theta);
     vec3 output_parallel = -sqrt(fabs(1 - output_vertical.length_squared())) * n;
     return output_vertical + output_parallel;
+}
+
+inline vec3 random_consine_direction(){
+    auto r1 = random_double();
+    auto r2 = random_double();
+    auto z = std::sqrt(1 - r2);
+    auto phi = 2 * pi * r1;
+    auto x = cos(phi) * sqrt(r2);
+    auto y = sin(phi) * sqrt(r2);
+
+    return vec3(x, y, z);
+}
+
+inline vec3 random_to_sphere(double radius, double distance_squared){
+    auto cos_theta = sqrt(1 - radius * radius / distance_squared);
+    auto r1 = random_double();
+    auto r2 = random_double();
+
+    auto z = 1 + r2 * (cos_theta - 1);
+    auto x = cos(2 * pi * r1) * sqrt(1 - z * z);
+    auto y = sin(2 * pi * r1) * sqrt(1 - z * z);
+
+    return vec3(x, y, z);
 }
 #endif

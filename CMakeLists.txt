@@ -11,7 +11,8 @@ if(OPENMP_FOUND)
     set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} ${OpenMP_EXE_LINKER_FLAGS}")
 endif()
 
-include_directories(./include ./external)
+
+
 aux_source_directory(./src SOURCES_FILES)
 
 add_executable(Canvas ${SOURCES_FILES})

@@ -18,6 +18,18 @@ bool aabb::hit(const Ray &r, double t_min, double t_max) const {
     return true;
 }
 
+int aabb::get_longest_axis() const {
+    auto diff = maximum - minimum;
+    int axis = 0;
+    auto longest = -infinity;
+    for(int i = 0; i < 3; ++i){
+        if (diff[i] > longest){
+            longest = diff[i];
+            axis = i;
+        }
+    }
+    return axis;
+}
 
 aabb surrounding_box(aabb &box0, aabb &box1) {
     point3 small(fmin(box0.min().x(), box1.min().x()),

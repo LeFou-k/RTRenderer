@@ -43,6 +43,18 @@ CMakeFiles/Canvas.dir/src/checker.o: ../include/texture.h
 CMakeFiles/Canvas.dir/src/checker.o: ../include/vec3.h
 CMakeFiles/Canvas.dir/src/checker.o: ../src/checker.cpp
 
+CMakeFiles/Canvas.dir/src/constant_medium.o: ../include/aabb.h
+CMakeFiles/Canvas.dir/src/constant_medium.o: ../include/constant_medium.h
+CMakeFiles/Canvas.dir/src/constant_medium.o: ../include/hittable.h
+CMakeFiles/Canvas.dir/src/constant_medium.o: ../include/isotropic.h
+CMakeFiles/Canvas.dir/src/constant_medium.o: ../include/material.h
+CMakeFiles/Canvas.dir/src/constant_medium.o: ../include/ray.h
+CMakeFiles/Canvas.dir/src/constant_medium.o: ../include/rtweekend.h
+CMakeFiles/Canvas.dir/src/constant_medium.o: ../include/solid_color.h
+CMakeFiles/Canvas.dir/src/constant_medium.o: ../include/texture.h
+CMakeFiles/Canvas.dir/src/constant_medium.o: ../include/vec3.h
+CMakeFiles/Canvas.dir/src/constant_medium.o: ../src/constant_medium.cpp
+
 CMakeFiles/Canvas.dir/src/dielectric.o: ../include/aabb.h
 CMakeFiles/Canvas.dir/src/dielectric.o: ../include/dielectric.h
 CMakeFiles/Canvas.dir/src/dielectric.o: ../include/hittable.h
@@ -87,11 +99,13 @@ CMakeFiles/Canvas.dir/src/main.o: ../include/bvh.h
 CMakeFiles/Canvas.dir/src/main.o: ../include/camera.h
 CMakeFiles/Canvas.dir/src/main.o: ../include/checker.h
 CMakeFiles/Canvas.dir/src/main.o: ../include/color.h
+CMakeFiles/Canvas.dir/src/main.o: ../include/constant_medium.h
 CMakeFiles/Canvas.dir/src/main.o: ../include/dielectric.h
 CMakeFiles/Canvas.dir/src/main.o: ../include/diffuse_light.h
 CMakeFiles/Canvas.dir/src/main.o: ../include/hittable.h
 CMakeFiles/Canvas.dir/src/main.o: ../include/hittablelist.h
 CMakeFiles/Canvas.dir/src/main.o: ../include/image_texture.h
+CMakeFiles/Canvas.dir/src/main.o: ../include/isotropic.h
 CMakeFiles/Canvas.dir/src/main.o: ../include/lambertian.h
 CMakeFiles/Canvas.dir/src/main.o: ../include/material.h
 CMakeFiles/Canvas.dir/src/main.o: ../include/metal.h

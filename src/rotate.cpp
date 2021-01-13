@@ -4,7 +4,7 @@
 
 #include "../include/rotate.h"
 
-rotate::rotate(shared_ptr<hittable>& p, double angle, int axis) : ptr(p), axis(axis), angle(angle) {
+rotate::rotate(shared_ptr<hittable> p, double angle, int axis) : ptr(p), axis(axis), angle(angle) {
     if(axis < 0 || axis > 3) std::cerr << "Wrong rotate axis!" << std::flush;
     hasbox = ptr->bounding_box(0, 1, box);
     point3 min(infinity, infinity, infinity);

@@ -18,7 +18,7 @@ using std::sqrt;
 //constants
 const double infinity = std::numeric_limits<double>::infinity();
 const double pi = 3.1415926535897932385;
-
+const double EPSILON = 0.0001;
 
 //Utility functions
 inline double degree_to_radians(const double degree)

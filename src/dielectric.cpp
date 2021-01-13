@@ -2,9 +2,12 @@
 #include "../include/hittable.h"
 
 
-bool dielectric::scatter(const Ray& ray_in, const hit_record& rec, color& attenuation, Ray& scatter) const
-{
-    attenuation = color(1.0, 1.0, 1.0);
+bool dielectric::scatter(const Ray &ray_in, const hit_record &rec, scatter_record &srec) const {
+
+    srec.attenuation = color(1.0, 1.0, 1.0);
+    srec.is_specular = true;
+    srec.pdf_ptr = nullptr;
+
     double refraction_ratio = rec.front_face ? 1.0 / ir : ir;
     vec3 unit_direction = unit_vector(ray_in.direction());
     
@@ -13,9 +16,12 @@ bool dielectric::scatter(const Ray& ray_in, const hit_record& rec, color& attenu
 
     bool cannot_refract = refraction_ratio * sin_theta > 1.0;
     vec3 dir;
-    if(cannot_refract || reflectance(cos_theta,refraction_ratio) > random_double()) dir = reflect(unit_direction, rec.normal);
-    else dir = refract(unit_direction, rec.normal, refraction_ratio);
-    scatter = Ray(rec.p, dir, ray_in.time());
+    if(cannot_refract || reflectance(cos_theta,refraction_ratio) > random_double()) \
+        dir = reflect(unit_direction, rec.normal);
+    else
+        dir = refract(unit_direction, rec.normal, refraction_ratio);
+
+    srec.specular_ray = Ray(rec.p, dir, ray_in.time());
     return true;
 }
 

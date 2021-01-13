@@ -8,7 +8,7 @@
 #include "hittable.h"
 class rotate : public hittable{
 public:
-    rotate(shared_ptr<hittable>& p, double angle, int axis);
+    rotate(shared_ptr<hittable> p, double angle, int axis);
     virtual bool hit(const Ray& r, double t_min, double t_max, hit_record& rec) const override;
     virtual bool bounding_box(double time0, double time1, aabb &output_box) const override;
 private:

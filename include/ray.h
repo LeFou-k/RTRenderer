@@ -6,6 +6,7 @@
 class Ray{
 public:
     Ray(){}
+    Ray(const point3& origin, const vec3& direction): orig(origin), dir(direction), tm(0){}
     Ray(const point3& origin, const vec3& direction, double time): orig(origin), dir(direction), tm(time){}
 
     point3 origin() const { return orig; }

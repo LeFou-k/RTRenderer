@@ -122,9 +122,22 @@ CMakeFiles/Canvas.dir/src/checker.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Canvas.dir/src/checker.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/graphics/projects/RayTracingTheNextWeek/src/checker.cpp -o CMakeFiles/Canvas.dir/src/checker.s
 
+CMakeFiles/Canvas.dir/src/constant_medium.o: CMakeFiles/Canvas.dir/flags.make
+CMakeFiles/Canvas.dir/src/constant_medium.o: ../src/constant_medium.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/graphics/projects/RayTracingTheNextWeek/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Canvas.dir/src/constant_medium.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Canvas.dir/src/constant_medium.o -c /mnt/e/graphics/projects/RayTracingTheNextWeek/src/constant_medium.cpp
+
+CMakeFiles/Canvas.dir/src/constant_medium.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Canvas.dir/src/constant_medium.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/graphics/projects/RayTracingTheNextWeek/src/constant_medium.cpp > CMakeFiles/Canvas.dir/src/constant_medium.i
+
+CMakeFiles/Canvas.dir/src/constant_medium.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Canvas.dir/src/constant_medium.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/graphics/projects/RayTracingTheNextWeek/src/constant_medium.cpp -o CMakeFiles/Canvas.dir/src/constant_medium.s
+
 CMakeFiles/Canvas.dir/src/dielectric.o: CMakeFiles/Canvas.dir/flags.make
 CMakeFiles/Canvas.dir/src/dielectric.o: ../src/dielectric.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/graphics/projects/RayTracingTheNextWeek/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Canvas.dir/src/dielectric.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/graphics/projects/RayTracingTheNextWeek/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Canvas.dir/src/dielectric.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Canvas.dir/src/dielectric.o -c /mnt/e/graphics/projects/RayTracingTheNextWeek/src/dielectric.cpp
 
 CMakeFiles/Canvas.dir/src/dielectric.i: cmake_force
@@ -137,7 +150,7 @@ CMakeFiles/Canvas.dir/src/dielectric.s: cmake_force
 
 CMakeFiles/Canvas.dir/src/hittablelist.o: CMakeFiles/Canvas.dir/flags.make
 CMakeFiles/Canvas.dir/src/hittablelist.o: ../src/hittablelist.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/graphics/projects/RayTracingTheNextWeek/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Canvas.dir/src/hittablelist.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/graphics/projects/RayTracingTheNextWeek/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Canvas.dir/src/hittablelist.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Canvas.dir/src/hittablelist.o -c /mnt/e/graphics/projects/RayTracingTheNextWeek/src/hittablelist.cpp
 
 CMakeFiles/Canvas.dir/src/hittablelist.i: cmake_force
@@ -150,7 +163,7 @@ CMakeFiles/Canvas.dir/src/hittablelist.s: cmake_force
 
 CMakeFiles/Canvas.dir/src/image_texture.o: CMakeFiles/Canvas.dir/flags.make
 CMakeFiles/Canvas.dir/src/image_texture.o: ../src/image_texture.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/graphics/projects/RayTracingTheNextWeek/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Canvas.dir/src/image_texture.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/graphics/projects/RayTracingTheNextWeek/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Canvas.dir/src/image_texture.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Canvas.dir/src/image_texture.o -c /mnt/e/graphics/projects/RayTracingTheNextWeek/src/image_texture.cpp
 
 CMakeFiles/Canvas.dir/src/image_texture.i: cmake_force
@@ -163,7 +176,7 @@ CMakeFiles/Canvas.dir/src/image_texture.s: cmake_force
 
 CMakeFiles/Canvas.dir/src/lambertian.o: CMakeFiles/Canvas.dir/flags.make
 CMakeFiles/Canvas.dir/src/lambertian.o: ../src/lambertian.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/graphics/projects/RayTracingTheNextWeek/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Canvas.dir/src/lambertian.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/graphics/projects/RayTracingTheNextWeek/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Canvas.dir/src/lambertian.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Canvas.dir/src/lambertian.o -c /mnt/e/graphics/projects/RayTracingTheNextWeek/src/lambertian.cpp
 
 CMakeFiles/Canvas.dir/src/lambertian.i: cmake_force
@@ -176,7 +189,7 @@ CMakeFiles/Canvas.dir/src/lambertian.s: cmake_force
 
 CMakeFiles/Canvas.dir/src/main.o: CMakeFiles/Canvas.dir/flags.make
 CMakeFiles/Canvas.dir/src/main.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/graphics/projects/RayTracingTheNextWeek/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Canvas.dir/src/main.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/graphics/projects/RayTracingTheNextWeek/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Canvas.dir/src/main.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Canvas.dir/src/main.o -c /mnt/e/graphics/projects/RayTracingTheNextWeek/src/main.cpp
 
 CMakeFiles/Canvas.dir/src/main.i: cmake_force
@@ -189,7 +202,7 @@ CMakeFiles/Canvas.dir/src/main.s: cmake_force
 
 CMakeFiles/Canvas.dir/src/metal.o: CMakeFiles/Canvas.dir/flags.make
 CMakeFiles/Canvas.dir/src/metal.o: ../src/metal.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/graphics/projects/RayTracingTheNextWeek/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Canvas.dir/src/metal.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/graphics/projects/RayTracingTheNextWeek/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Canvas.dir/src/metal.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Canvas.dir/src/metal.o -c /mnt/e/graphics/projects/RayTracingTheNextWeek/src/metal.cpp
 
 CMakeFiles/Canvas.dir/src/metal.i: cmake_force
@@ -202,7 +215,7 @@ CMakeFiles/Canvas.dir/src/metal.s: cmake_force
 
 CMakeFiles/Canvas.dir/src/moving_sphere.o: CMakeFiles/Canvas.dir/flags.make
 CMakeFiles/Canvas.dir/src/moving_sphere.o: ../src/moving_sphere.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/graphics/projects/RayTracingTheNextWeek/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Canvas.dir/src/moving_sphere.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/graphics/projects/RayTracingTheNextWeek/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Canvas.dir/src/moving_sphere.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Canvas.dir/src/moving_sphere.o -c /mnt/e/graphics/projects/RayTracingTheNextWeek/src/moving_sphere.cpp
 
 CMakeFiles/Canvas.dir/src/moving_sphere.i: cmake_force
@@ -215,7 +228,7 @@ CMakeFiles/Canvas.dir/src/moving_sphere.s: cmake_force
 
 CMakeFiles/Canvas.dir/src/noise.o: CMakeFiles/Canvas.dir/flags.make
 CMakeFiles/Canvas.dir/src/noise.o: ../src/noise.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/graphics/projects/RayTracingTheNextWeek/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Canvas.dir/src/noise.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/graphics/projects/RayTracingTheNextWeek/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Canvas.dir/src/noise.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Canvas.dir/src/noise.o -c /mnt/e/graphics/projects/RayTracingTheNextWeek/src/noise.cpp
 
 CMakeFiles/Canvas.dir/src/noise.i: cmake_force
@@ -228,7 +241,7 @@ CMakeFiles/Canvas.dir/src/noise.s: cmake_force
 
 CMakeFiles/Canvas.dir/src/perlin.o: CMakeFiles/Canvas.dir/flags.make
 CMakeFiles/Canvas.dir/src/perlin.o: ../src/perlin.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/graphics/projects/RayTracingTheNextWeek/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Canvas.dir/src/perlin.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/graphics/projects/RayTracingTheNextWeek/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Canvas.dir/src/perlin.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Canvas.dir/src/perlin.o -c /mnt/e/graphics/projects/RayTracingTheNextWeek/src/perlin.cpp
 
 CMakeFiles/Canvas.dir/src/perlin.i: cmake_force
@@ -241,7 +254,7 @@ CMakeFiles/Canvas.dir/src/perlin.s: cmake_force
 
 CMakeFiles/Canvas.dir/src/rotate.o: CMakeFiles/Canvas.dir/flags.make
 CMakeFiles/Canvas.dir/src/rotate.o: ../src/rotate.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/graphics/projects/RayTracingTheNextWeek/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Canvas.dir/src/rotate.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/graphics/projects/RayTracingTheNextWeek/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Canvas.dir/src/rotate.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Canvas.dir/src/rotate.o -c /mnt/e/graphics/projects/RayTracingTheNextWeek/src/rotate.cpp
 
 CMakeFiles/Canvas.dir/src/rotate.i: cmake_force
@@ -254,7 +267,7 @@ CMakeFiles/Canvas.dir/src/rotate.s: cmake_force
 
 CMakeFiles/Canvas.dir/src/sphere.o: CMakeFiles/Canvas.dir/flags.make
 CMakeFiles/Canvas.dir/src/sphere.o: ../src/sphere.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/graphics/projects/RayTracingTheNextWeek/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Canvas.dir/src/sphere.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/graphics/projects/RayTracingTheNextWeek/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Canvas.dir/src/sphere.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Canvas.dir/src/sphere.o -c /mnt/e/graphics/projects/RayTracingTheNextWeek/src/sphere.cpp
 
 CMakeFiles/Canvas.dir/src/sphere.i: cmake_force
@@ -267,7 +280,7 @@ CMakeFiles/Canvas.dir/src/sphere.s: cmake_force
 
 CMakeFiles/Canvas.dir/src/translate.o: CMakeFiles/Canvas.dir/flags.make
 CMakeFiles/Canvas.dir/src/translate.o: ../src/translate.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/graphics/projects/RayTracingTheNextWeek/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Canvas.dir/src/translate.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/graphics/projects/RayTracingTheNextWeek/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/Canvas.dir/src/translate.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Canvas.dir/src/translate.o -c /mnt/e/graphics/projects/RayTracingTheNextWeek/src/translate.cpp
 
 CMakeFiles/Canvas.dir/src/translate.i: cmake_force
@@ -280,7 +293,7 @@ CMakeFiles/Canvas.dir/src/translate.s: cmake_force
 
 CMakeFiles/Canvas.dir/src/xy_rect.o: CMakeFiles/Canvas.dir/flags.make
 CMakeFiles/Canvas.dir/src/xy_rect.o: ../src/xy_rect.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/graphics/projects/RayTracingTheNextWeek/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/Canvas.dir/src/xy_rect.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/graphics/projects/RayTracingTheNextWeek/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/Canvas.dir/src/xy_rect.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Canvas.dir/src/xy_rect.o -c /mnt/e/graphics/projects/RayTracingTheNextWeek/src/xy_rect.cpp
 
 CMakeFiles/Canvas.dir/src/xy_rect.i: cmake_force
@@ -293,7 +306,7 @@ CMakeFiles/Canvas.dir/src/xy_rect.s: cmake_force
 
 CMakeFiles/Canvas.dir/src/xz_rect.o: CMakeFiles/Canvas.dir/flags.make
 CMakeFiles/Canvas.dir/src/xz_rect.o: ../src/xz_rect.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/graphics/projects/RayTracingTheNextWeek/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/Canvas.dir/src/xz_rect.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/graphics/projects/RayTracingTheNextWeek/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/Canvas.dir/src/xz_rect.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Canvas.dir/src/xz_rect.o -c /mnt/e/graphics/projects/RayTracingTheNextWeek/src/xz_rect.cpp
 
 CMakeFiles/Canvas.dir/src/xz_rect.i: cmake_force
@@ -306,7 +319,7 @@ CMakeFiles/Canvas.dir/src/xz_rect.s: cmake_force
 
 CMakeFiles/Canvas.dir/src/yz_rect.o: CMakeFiles/Canvas.dir/flags.make
 CMakeFiles/Canvas.dir/src/yz_rect.o: ../src/yz_rect.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/graphics/projects/RayTracingTheNextWeek/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/Canvas.dir/src/yz_rect.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/graphics/projects/RayTracingTheNextWeek/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/Canvas.dir/src/yz_rect.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Canvas.dir/src/yz_rect.o -c /mnt/e/graphics/projects/RayTracingTheNextWeek/src/yz_rect.cpp
 
 CMakeFiles/Canvas.dir/src/yz_rect.i: cmake_force
@@ -324,6 +337,7 @@ Canvas_OBJECTS = \
 "CMakeFiles/Canvas.dir/src/bvh.o" \
 "CMakeFiles/Canvas.dir/src/camera.o" \
 "CMakeFiles/Canvas.dir/src/checker.o" \
+"CMakeFiles/Canvas.dir/src/constant_medium.o" \
 "CMakeFiles/Canvas.dir/src/dielectric.o" \
 "CMakeFiles/Canvas.dir/src/hittablelist.o" \
 "CMakeFiles/Canvas.dir/src/image_texture.o" \
@@ -348,6 +362,7 @@ Canvas: CMakeFiles/Canvas.dir/src/box.o
 Canvas: CMakeFiles/Canvas.dir/src/bvh.o
 Canvas: CMakeFiles/Canvas.dir/src/camera.o
 Canvas: CMakeFiles/Canvas.dir/src/checker.o
+Canvas: CMakeFiles/Canvas.dir/src/constant_medium.o
 Canvas: CMakeFiles/Canvas.dir/src/dielectric.o
 Canvas: CMakeFiles/Canvas.dir/src/hittablelist.o
 Canvas: CMakeFiles/Canvas.dir/src/image_texture.o
@@ -365,7 +380,7 @@ Canvas: CMakeFiles/Canvas.dir/src/xz_rect.o
 Canvas: CMakeFiles/Canvas.dir/src/yz_rect.o
 Canvas: CMakeFiles/Canvas.dir/build.make
 Canvas: CMakeFiles/Canvas.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/e/graphics/projects/RayTracingTheNextWeek/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX executable Canvas"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/e/graphics/projects/RayTracingTheNextWeek/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX executable Canvas"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Canvas.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

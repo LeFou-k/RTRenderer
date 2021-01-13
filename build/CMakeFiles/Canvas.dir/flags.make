@@ -6,5 +6,5 @@ CXX_FLAGS =  -fopenmp -O3 -DNDEBUG   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/mnt/e/graphics/projects/RayTracingTheNextWeek/./include -I/mnt/e/graphics/projects/RayTracingTheNextWeek/./external 
 

@@ -43,6 +43,18 @@ CMakeFiles/Canvas.dir/src/checker.o
  /mnt/e/graphics/projects/RayTracingTheNextWeek/include/texture.h
  /mnt/e/graphics/projects/RayTracingTheNextWeek/include/vec3.h
  /mnt/e/graphics/projects/RayTracingTheNextWeek/src/checker.cpp
+CMakeFiles/Canvas.dir/src/constant_medium.o
+ /mnt/e/graphics/projects/RayTracingTheNextWeek/include/aabb.h
+ /mnt/e/graphics/projects/RayTracingTheNextWeek/include/constant_medium.h
+ /mnt/e/graphics/projects/RayTracingTheNextWeek/include/hittable.h
+ /mnt/e/graphics/projects/RayTracingTheNextWeek/include/isotropic.h
+ /mnt/e/graphics/projects/RayTracingTheNextWeek/include/material.h
+ /mnt/e/graphics/projects/RayTracingTheNextWeek/include/ray.h
+ /mnt/e/graphics/projects/RayTracingTheNextWeek/include/rtweekend.h
+ /mnt/e/graphics/projects/RayTracingTheNextWeek/include/solid_color.h
+ /mnt/e/graphics/projects/RayTracingTheNextWeek/include/texture.h
+ /mnt/e/graphics/projects/RayTracingTheNextWeek/include/vec3.h
+ /mnt/e/graphics/projects/RayTracingTheNextWeek/src/constant_medium.cpp
 CMakeFiles/Canvas.dir/src/dielectric.o
  /mnt/e/graphics/projects/RayTracingTheNextWeek/include/aabb.h
  /mnt/e/graphics/projects/RayTracingTheNextWeek/include/dielectric.h
@@ -88,11 +100,13 @@ CMakeFiles/Canvas.dir/src/main.o
  /mnt/e/graphics/projects/RayTracingTheNextWeek/include/camera.h
  /mnt/e/graphics/projects/RayTracingTheNextWeek/include/checker.h
  /mnt/e/graphics/projects/RayTracingTheNextWeek/include/color.h
+ /mnt/e/graphics/projects/RayTracingTheNextWeek/include/constant_medium.h
  /mnt/e/graphics/projects/RayTracingTheNextWeek/include/dielectric.h
  /mnt/e/graphics/projects/RayTracingTheNextWeek/include/diffuse_light.h
  /mnt/e/graphics/projects/RayTracingTheNextWeek/include/hittable.h
  /mnt/e/graphics/projects/RayTracingTheNextWeek/include/hittablelist.h
  /mnt/e/graphics/projects/RayTracingTheNextWeek/include/image_texture.h
+ /mnt/e/graphics/projects/RayTracingTheNextWeek/include/isotropic.h
  /mnt/e/graphics/projects/RayTracingTheNextWeek/include/lambertian.h
  /mnt/e/graphics/projects/RayTracingTheNextWeek/include/material.h
  /mnt/e/graphics/projects/RayTracingTheNextWeek/include/metal.h

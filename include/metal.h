@@ -7,7 +7,10 @@
 class metal : public material{
 public:
     metal(const color& a, const double& f): albedo(a), fuzz(f < 1 ? f : 1) {}
-    bool scatter(const Ray& ray_in, const hit_record& rec, color& attenuation, Ray& scatter) const;
+    virtual bool scatter(const Ray &ray_in, const hit_record &rec, scatter_record &srec) const override;
+    virtual double scatter_pdf(const Ray &ray_in, const hit_record &rec, const Ray &scatter) const override{
+        return 1.0;
+    }
 private:
     color albedo;
     double fuzz;

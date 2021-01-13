@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Canvas.dir/src/bvh.o"
   "CMakeFiles/Canvas.dir/src/camera.o"
   "CMakeFiles/Canvas.dir/src/checker.o"
+  "CMakeFiles/Canvas.dir/src/constant_medium.o"
   "CMakeFiles/Canvas.dir/src/dielectric.o"
   "CMakeFiles/Canvas.dir/src/hittablelist.o"
   "CMakeFiles/Canvas.dir/src/image_texture.o"

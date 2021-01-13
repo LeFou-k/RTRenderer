@@ -19,8 +19,13 @@ bool bvh_node::hit(const Ray& r, double t_min, double t_max, hit_record& rec) co
 bvh_node::bvh_node(const vector<shared_ptr<hittable>>& src_objects, size_t start, size_t end, double time0, double time1)
 {
     auto objects = src_objects;
-
-    int axis = random_int(0, 2);    
+    aabb total_box;
+    for(int i = start; i < end; ++i){
+        aabb temp_box;
+        if(src_objects[i]->bounding_box(time0, time1, temp_box))
+            total_box = surrounding_box(total_box, temp_box);
+    }
+    int axis = total_box.get_longest_axis();
     auto comparator = (axis == 0) ? box_x_compare :
                       (axis == 1) ? box_y_compare :
                                     box_z_compare ;

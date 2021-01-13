@@ -4,7 +4,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/Canvas.dir/src/bvh.obj"
   "CMakeFiles/Canvas.dir/src/camera.obj"
   "CMakeFiles/Canvas.dir/src/checker.obj"
+  "CMakeFiles/Canvas.dir/src/constant_medium.obj"
+  "CMakeFiles/Canvas.dir/src/cosine_pdf.obj"
   "CMakeFiles/Canvas.dir/src/dielectric.obj"
+  "CMakeFiles/Canvas.dir/src/flip_face.obj"
   "CMakeFiles/Canvas.dir/src/hittablelist.obj"
   "CMakeFiles/Canvas.dir/src/image_texture.obj"
   "CMakeFiles/Canvas.dir/src/lambertian.obj"
@@ -12,6 +15,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Canvas.dir/src/metal.obj"
   "CMakeFiles/Canvas.dir/src/moving_sphere.obj"
   "CMakeFiles/Canvas.dir/src/noise.obj"
+  "CMakeFiles/Canvas.dir/src/onb.obj"
   "CMakeFiles/Canvas.dir/src/perlin.obj"
   "CMakeFiles/Canvas.dir/src/rotate.obj"
   "CMakeFiles/Canvas.dir/src/sphere.obj"
@@ -21,8 +25,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Canvas.dir/src/yz_rect.obj"
   "Canvas.exe"
   "Canvas.exe.manifest"
-  "Canvas.lib"
   "Canvas.pdb"
+  "libCanvas.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

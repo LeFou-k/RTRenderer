@@ -199,6 +199,21 @@ src/checker.s:
 .PHONY : src/checker.s
 
 # target to build an object file
+src/constant_medium.o:
+	$(MAKE) -f CMakeFiles/Canvas.dir/build.make CMakeFiles/Canvas.dir/src/constant_medium.o
+.PHONY : src/constant_medium.o
+
+# target to preprocess a source file
+src/constant_medium.i:
+	$(MAKE) -f CMakeFiles/Canvas.dir/build.make CMakeFiles/Canvas.dir/src/constant_medium.i
+.PHONY : src/constant_medium.i
+
+# target to generate assembly for a file
+src/constant_medium.s:
+	$(MAKE) -f CMakeFiles/Canvas.dir/build.make CMakeFiles/Canvas.dir/src/constant_medium.s
+.PHONY : src/constant_medium.s
+
+# target to build an object file
 src/dielectric.o:
 	$(MAKE) -f CMakeFiles/Canvas.dir/build.make CMakeFiles/Canvas.dir/src/dielectric.o
 .PHONY : src/dielectric.o
@@ -447,6 +462,9 @@ help:
 	@echo "... src/checker.o"
 	@echo "... src/checker.i"
 	@echo "... src/checker.s"
+	@echo "... src/constant_medium.o"
+	@echo "... src/constant_medium.i"
+	@echo "... src/constant_medium.s"
 	@echo "... src/dielectric.o"
 	@echo "... src/dielectric.i"
 	@echo "... src/dielectric.s"
