@@ -11,9 +11,13 @@ By studying the famous 'RayTracing' series, I tried to write down my own ray tra
 
 
 
+## To-do list
+
+- [] tidy my code.
+
+
+
 Rendering results are as follows:
-
-
 
 **RayTracingInOneWeekend final output with 500 spp**
 
