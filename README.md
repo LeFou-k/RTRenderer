@@ -1,6 +1,6 @@
-# RayTracingTheNextWeek
+# RayTracer
 
-By studying the famous 'RayTracing' series, I tried to write down my own ray tracing renderer, which currently support following functions below:
+By studying the famous 'RayTracing' series, I tried to write down my own ray tracing renderer, which currently supports following functions below:
 
 - Path tracing using monto carlo integration
 - materials rendering include:
@@ -11,19 +11,23 @@ By studying the famous 'RayTracing' series, I tried to write down my own ray tra
 
 
 
-Rendering images are as follows:
+Rendering results are as follows:
 
-**RayTracingInOneWeekend final output with spp500**
+
+
+**RayTracingInOneWeekend final output with 500 spp**
 
 ![Weekend_final_spp500](image/Weekend_final_spp500.jpg)
 
-**RayTracingInOneWeek final output with spp20000**
+
+
+**RayTracingInOneWeek final output with 20000 spp**
 
 ![final_pink_spp20000](image/final_pink_spp20000.jpg)
 
 
 
-**RayTracing: Rest of your life with 10000spp(also as cornell box)**
+**RayTracing: Rest of your life with 10000 spp(also as a cornell box)**
 
 ![CornellBox_final_spp10000](image/CornellBox_final_spp10000.jpg)
 
