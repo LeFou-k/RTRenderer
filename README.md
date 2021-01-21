@@ -41,3 +41,4 @@ Rendering results are as follows:
 
 ![CornellBox_final_spp10000](image/CornellBox_final_spp10000.jpg)
 
+**--finished--**
