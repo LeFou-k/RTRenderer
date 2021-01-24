@@ -53,19 +53,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\CLion 2020.2.5\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\CLion 2020.2.5\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\graphics\projects\RayTracingTheRestOfYourLife
+CMAKE_SOURCE_DIR = C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\graphics\projects\RayTracingTheRestOfYourLife\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Canvas.dir/depend.make
@@ -78,315 +78,315 @@ include CMakeFiles/Canvas.dir/flags.make
 
 CMakeFiles/Canvas.dir/src/aabb.obj: CMakeFiles/Canvas.dir/flags.make
 CMakeFiles/Canvas.dir/src/aabb.obj: ../src/aabb.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\graphics\projects\RayTracingTheRestOfYourLife\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Canvas.dir/src/aabb.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Canvas.dir\src\aabb.obj -c E:\graphics\projects\RayTracingTheRestOfYourLife\src\aabb.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Canvas.dir/src/aabb.obj"
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Canvas.dir\src\aabb.obj -c C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\src\aabb.cpp
 
 CMakeFiles/Canvas.dir/src/aabb.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Canvas.dir/src/aabb.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\graphics\projects\RayTracingTheRestOfYourLife\src\aabb.cpp > CMakeFiles\Canvas.dir\src\aabb.i
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\src\aabb.cpp > CMakeFiles\Canvas.dir\src\aabb.i
 
 CMakeFiles/Canvas.dir/src/aabb.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Canvas.dir/src/aabb.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\graphics\projects\RayTracingTheRestOfYourLife\src\aabb.cpp -o CMakeFiles\Canvas.dir\src\aabb.s
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\src\aabb.cpp -o CMakeFiles\Canvas.dir\src\aabb.s
 
 CMakeFiles/Canvas.dir/src/box.obj: CMakeFiles/Canvas.dir/flags.make
 CMakeFiles/Canvas.dir/src/box.obj: ../src/box.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\graphics\projects\RayTracingTheRestOfYourLife\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Canvas.dir/src/box.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Canvas.dir\src\box.obj -c E:\graphics\projects\RayTracingTheRestOfYourLife\src\box.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Canvas.dir/src/box.obj"
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Canvas.dir\src\box.obj -c C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\src\box.cpp
 
 CMakeFiles/Canvas.dir/src/box.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Canvas.dir/src/box.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\graphics\projects\RayTracingTheRestOfYourLife\src\box.cpp > CMakeFiles\Canvas.dir\src\box.i
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\src\box.cpp > CMakeFiles\Canvas.dir\src\box.i
 
 CMakeFiles/Canvas.dir/src/box.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Canvas.dir/src/box.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\graphics\projects\RayTracingTheRestOfYourLife\src\box.cpp -o CMakeFiles\Canvas.dir\src\box.s
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\src\box.cpp -o CMakeFiles\Canvas.dir\src\box.s
 
 CMakeFiles/Canvas.dir/src/bvh.obj: CMakeFiles/Canvas.dir/flags.make
 CMakeFiles/Canvas.dir/src/bvh.obj: ../src/bvh.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\graphics\projects\RayTracingTheRestOfYourLife\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Canvas.dir/src/bvh.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Canvas.dir\src\bvh.obj -c E:\graphics\projects\RayTracingTheRestOfYourLife\src\bvh.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Canvas.dir/src/bvh.obj"
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Canvas.dir\src\bvh.obj -c C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\src\bvh.cpp
 
 CMakeFiles/Canvas.dir/src/bvh.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Canvas.dir/src/bvh.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\graphics\projects\RayTracingTheRestOfYourLife\src\bvh.cpp > CMakeFiles\Canvas.dir\src\bvh.i
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\src\bvh.cpp > CMakeFiles\Canvas.dir\src\bvh.i
 
 CMakeFiles/Canvas.dir/src/bvh.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Canvas.dir/src/bvh.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\graphics\projects\RayTracingTheRestOfYourLife\src\bvh.cpp -o CMakeFiles\Canvas.dir\src\bvh.s
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\src\bvh.cpp -o CMakeFiles\Canvas.dir\src\bvh.s
 
 CMakeFiles/Canvas.dir/src/camera.obj: CMakeFiles/Canvas.dir/flags.make
 CMakeFiles/Canvas.dir/src/camera.obj: ../src/camera.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\graphics\projects\RayTracingTheRestOfYourLife\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Canvas.dir/src/camera.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Canvas.dir\src\camera.obj -c E:\graphics\projects\RayTracingTheRestOfYourLife\src\camera.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Canvas.dir/src/camera.obj"
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Canvas.dir\src\camera.obj -c C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\src\camera.cpp
 
 CMakeFiles/Canvas.dir/src/camera.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Canvas.dir/src/camera.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\graphics\projects\RayTracingTheRestOfYourLife\src\camera.cpp > CMakeFiles\Canvas.dir\src\camera.i
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\src\camera.cpp > CMakeFiles\Canvas.dir\src\camera.i
 
 CMakeFiles/Canvas.dir/src/camera.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Canvas.dir/src/camera.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\graphics\projects\RayTracingTheRestOfYourLife\src\camera.cpp -o CMakeFiles\Canvas.dir\src\camera.s
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\src\camera.cpp -o CMakeFiles\Canvas.dir\src\camera.s
 
 CMakeFiles/Canvas.dir/src/checker.obj: CMakeFiles/Canvas.dir/flags.make
 CMakeFiles/Canvas.dir/src/checker.obj: ../src/checker.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\graphics\projects\RayTracingTheRestOfYourLife\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Canvas.dir/src/checker.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Canvas.dir\src\checker.obj -c E:\graphics\projects\RayTracingTheRestOfYourLife\src\checker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Canvas.dir/src/checker.obj"
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Canvas.dir\src\checker.obj -c C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\src\checker.cpp
 
 CMakeFiles/Canvas.dir/src/checker.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Canvas.dir/src/checker.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\graphics\projects\RayTracingTheRestOfYourLife\src\checker.cpp > CMakeFiles\Canvas.dir\src\checker.i
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\src\checker.cpp > CMakeFiles\Canvas.dir\src\checker.i
 
 CMakeFiles/Canvas.dir/src/checker.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Canvas.dir/src/checker.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\graphics\projects\RayTracingTheRestOfYourLife\src\checker.cpp -o CMakeFiles\Canvas.dir\src\checker.s
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\src\checker.cpp -o CMakeFiles\Canvas.dir\src\checker.s
 
 CMakeFiles/Canvas.dir/src/constant_medium.obj: CMakeFiles/Canvas.dir/flags.make
 CMakeFiles/Canvas.dir/src/constant_medium.obj: ../src/constant_medium.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\graphics\projects\RayTracingTheRestOfYourLife\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Canvas.dir/src/constant_medium.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Canvas.dir\src\constant_medium.obj -c E:\graphics\projects\RayTracingTheRestOfYourLife\src\constant_medium.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Canvas.dir/src/constant_medium.obj"
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Canvas.dir\src\constant_medium.obj -c C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\src\constant_medium.cpp
 
 CMakeFiles/Canvas.dir/src/constant_medium.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Canvas.dir/src/constant_medium.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\graphics\projects\RayTracingTheRestOfYourLife\src\constant_medium.cpp > CMakeFiles\Canvas.dir\src\constant_medium.i
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\src\constant_medium.cpp > CMakeFiles\Canvas.dir\src\constant_medium.i
 
 CMakeFiles/Canvas.dir/src/constant_medium.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Canvas.dir/src/constant_medium.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\graphics\projects\RayTracingTheRestOfYourLife\src\constant_medium.cpp -o CMakeFiles\Canvas.dir\src\constant_medium.s
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\src\constant_medium.cpp -o CMakeFiles\Canvas.dir\src\constant_medium.s
 
 CMakeFiles/Canvas.dir/src/cosine_pdf.obj: CMakeFiles/Canvas.dir/flags.make
 CMakeFiles/Canvas.dir/src/cosine_pdf.obj: ../src/cosine_pdf.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\graphics\projects\RayTracingTheRestOfYourLife\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Canvas.dir/src/cosine_pdf.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Canvas.dir\src\cosine_pdf.obj -c E:\graphics\projects\RayTracingTheRestOfYourLife\src\cosine_pdf.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Canvas.dir/src/cosine_pdf.obj"
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Canvas.dir\src\cosine_pdf.obj -c C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\src\cosine_pdf.cpp
 
 CMakeFiles/Canvas.dir/src/cosine_pdf.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Canvas.dir/src/cosine_pdf.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\graphics\projects\RayTracingTheRestOfYourLife\src\cosine_pdf.cpp > CMakeFiles\Canvas.dir\src\cosine_pdf.i
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\src\cosine_pdf.cpp > CMakeFiles\Canvas.dir\src\cosine_pdf.i
 
 CMakeFiles/Canvas.dir/src/cosine_pdf.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Canvas.dir/src/cosine_pdf.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\graphics\projects\RayTracingTheRestOfYourLife\src\cosine_pdf.cpp -o CMakeFiles\Canvas.dir\src\cosine_pdf.s
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\src\cosine_pdf.cpp -o CMakeFiles\Canvas.dir\src\cosine_pdf.s
 
 CMakeFiles/Canvas.dir/src/dielectric.obj: CMakeFiles/Canvas.dir/flags.make
 CMakeFiles/Canvas.dir/src/dielectric.obj: ../src/dielectric.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\graphics\projects\RayTracingTheRestOfYourLife\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Canvas.dir/src/dielectric.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Canvas.dir\src\dielectric.obj -c E:\graphics\projects\RayTracingTheRestOfYourLife\src\dielectric.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Canvas.dir/src/dielectric.obj"
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Canvas.dir\src\dielectric.obj -c C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\src\dielectric.cpp
 
 CMakeFiles/Canvas.dir/src/dielectric.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Canvas.dir/src/dielectric.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\graphics\projects\RayTracingTheRestOfYourLife\src\dielectric.cpp > CMakeFiles\Canvas.dir\src\dielectric.i
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\src\dielectric.cpp > CMakeFiles\Canvas.dir\src\dielectric.i
 
 CMakeFiles/Canvas.dir/src/dielectric.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Canvas.dir/src/dielectric.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\graphics\projects\RayTracingTheRestOfYourLife\src\dielectric.cpp -o CMakeFiles\Canvas.dir\src\dielectric.s
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\src\dielectric.cpp -o CMakeFiles\Canvas.dir\src\dielectric.s
 
 CMakeFiles/Canvas.dir/src/flip_face.obj: CMakeFiles/Canvas.dir/flags.make
 CMakeFiles/Canvas.dir/src/flip_face.obj: ../src/flip_face.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\graphics\projects\RayTracingTheRestOfYourLife\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Canvas.dir/src/flip_face.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Canvas.dir\src\flip_face.obj -c E:\graphics\projects\RayTracingTheRestOfYourLife\src\flip_face.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Canvas.dir/src/flip_face.obj"
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Canvas.dir\src\flip_face.obj -c C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\src\flip_face.cpp
 
 CMakeFiles/Canvas.dir/src/flip_face.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Canvas.dir/src/flip_face.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\graphics\projects\RayTracingTheRestOfYourLife\src\flip_face.cpp > CMakeFiles\Canvas.dir\src\flip_face.i
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\src\flip_face.cpp > CMakeFiles\Canvas.dir\src\flip_face.i
 
 CMakeFiles/Canvas.dir/src/flip_face.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Canvas.dir/src/flip_face.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\graphics\projects\RayTracingTheRestOfYourLife\src\flip_face.cpp -o CMakeFiles\Canvas.dir\src\flip_face.s
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\src\flip_face.cpp -o CMakeFiles\Canvas.dir\src\flip_face.s
 
 CMakeFiles/Canvas.dir/src/hittablelist.obj: CMakeFiles/Canvas.dir/flags.make
 CMakeFiles/Canvas.dir/src/hittablelist.obj: ../src/hittablelist.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\graphics\projects\RayTracingTheRestOfYourLife\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Canvas.dir/src/hittablelist.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Canvas.dir\src\hittablelist.obj -c E:\graphics\projects\RayTracingTheRestOfYourLife\src\hittablelist.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Canvas.dir/src/hittablelist.obj"
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Canvas.dir\src\hittablelist.obj -c C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\src\hittablelist.cpp
 
 CMakeFiles/Canvas.dir/src/hittablelist.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Canvas.dir/src/hittablelist.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\graphics\projects\RayTracingTheRestOfYourLife\src\hittablelist.cpp > CMakeFiles\Canvas.dir\src\hittablelist.i
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\src\hittablelist.cpp > CMakeFiles\Canvas.dir\src\hittablelist.i
 
 CMakeFiles/Canvas.dir/src/hittablelist.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Canvas.dir/src/hittablelist.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\graphics\projects\RayTracingTheRestOfYourLife\src\hittablelist.cpp -o CMakeFiles\Canvas.dir\src\hittablelist.s
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\src\hittablelist.cpp -o CMakeFiles\Canvas.dir\src\hittablelist.s
 
 CMakeFiles/Canvas.dir/src/image_texture.obj: CMakeFiles/Canvas.dir/flags.make
 CMakeFiles/Canvas.dir/src/image_texture.obj: ../src/image_texture.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\graphics\projects\RayTracingTheRestOfYourLife\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Canvas.dir/src/image_texture.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Canvas.dir\src\image_texture.obj -c E:\graphics\projects\RayTracingTheRestOfYourLife\src\image_texture.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Canvas.dir/src/image_texture.obj"
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Canvas.dir\src\image_texture.obj -c C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\src\image_texture.cpp
 
 CMakeFiles/Canvas.dir/src/image_texture.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Canvas.dir/src/image_texture.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\graphics\projects\RayTracingTheRestOfYourLife\src\image_texture.cpp > CMakeFiles\Canvas.dir\src\image_texture.i
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\src\image_texture.cpp > CMakeFiles\Canvas.dir\src\image_texture.i
 
 CMakeFiles/Canvas.dir/src/image_texture.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Canvas.dir/src/image_texture.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\graphics\projects\RayTracingTheRestOfYourLife\src\image_texture.cpp -o CMakeFiles\Canvas.dir\src\image_texture.s
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\src\image_texture.cpp -o CMakeFiles\Canvas.dir\src\image_texture.s
 
 CMakeFiles/Canvas.dir/src/lambertian.obj: CMakeFiles/Canvas.dir/flags.make
 CMakeFiles/Canvas.dir/src/lambertian.obj: ../src/lambertian.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\graphics\projects\RayTracingTheRestOfYourLife\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Canvas.dir/src/lambertian.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Canvas.dir\src\lambertian.obj -c E:\graphics\projects\RayTracingTheRestOfYourLife\src\lambertian.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Canvas.dir/src/lambertian.obj"
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Canvas.dir\src\lambertian.obj -c C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\src\lambertian.cpp
 
 CMakeFiles/Canvas.dir/src/lambertian.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Canvas.dir/src/lambertian.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\graphics\projects\RayTracingTheRestOfYourLife\src\lambertian.cpp > CMakeFiles\Canvas.dir\src\lambertian.i
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\src\lambertian.cpp > CMakeFiles\Canvas.dir\src\lambertian.i
 
 CMakeFiles/Canvas.dir/src/lambertian.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Canvas.dir/src/lambertian.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\graphics\projects\RayTracingTheRestOfYourLife\src\lambertian.cpp -o CMakeFiles\Canvas.dir\src\lambertian.s
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\src\lambertian.cpp -o CMakeFiles\Canvas.dir\src\lambertian.s
 
 CMakeFiles/Canvas.dir/src/main.obj: CMakeFiles/Canvas.dir/flags.make
 CMakeFiles/Canvas.dir/src/main.obj: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\graphics\projects\RayTracingTheRestOfYourLife\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Canvas.dir/src/main.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Canvas.dir\src\main.obj -c E:\graphics\projects\RayTracingTheRestOfYourLife\src\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Canvas.dir/src/main.obj"
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Canvas.dir\src\main.obj -c C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\src\main.cpp
 
 CMakeFiles/Canvas.dir/src/main.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Canvas.dir/src/main.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\graphics\projects\RayTracingTheRestOfYourLife\src\main.cpp > CMakeFiles\Canvas.dir\src\main.i
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\src\main.cpp > CMakeFiles\Canvas.dir\src\main.i
 
 CMakeFiles/Canvas.dir/src/main.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Canvas.dir/src/main.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\graphics\projects\RayTracingTheRestOfYourLife\src\main.cpp -o CMakeFiles\Canvas.dir\src\main.s
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\src\main.cpp -o CMakeFiles\Canvas.dir\src\main.s
 
 CMakeFiles/Canvas.dir/src/metal.obj: CMakeFiles/Canvas.dir/flags.make
 CMakeFiles/Canvas.dir/src/metal.obj: ../src/metal.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\graphics\projects\RayTracingTheRestOfYourLife\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Canvas.dir/src/metal.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Canvas.dir\src\metal.obj -c E:\graphics\projects\RayTracingTheRestOfYourLife\src\metal.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Canvas.dir/src/metal.obj"
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Canvas.dir\src\metal.obj -c C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\src\metal.cpp
 
 CMakeFiles/Canvas.dir/src/metal.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Canvas.dir/src/metal.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\graphics\projects\RayTracingTheRestOfYourLife\src\metal.cpp > CMakeFiles\Canvas.dir\src\metal.i
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\src\metal.cpp > CMakeFiles\Canvas.dir\src\metal.i
 
 CMakeFiles/Canvas.dir/src/metal.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Canvas.dir/src/metal.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\graphics\projects\RayTracingTheRestOfYourLife\src\metal.cpp -o CMakeFiles\Canvas.dir\src\metal.s
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\src\metal.cpp -o CMakeFiles\Canvas.dir\src\metal.s
 
 CMakeFiles/Canvas.dir/src/moving_sphere.obj: CMakeFiles/Canvas.dir/flags.make
 CMakeFiles/Canvas.dir/src/moving_sphere.obj: ../src/moving_sphere.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\graphics\projects\RayTracingTheRestOfYourLife\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Canvas.dir/src/moving_sphere.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Canvas.dir\src\moving_sphere.obj -c E:\graphics\projects\RayTracingTheRestOfYourLife\src\moving_sphere.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Canvas.dir/src/moving_sphere.obj"
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Canvas.dir\src\moving_sphere.obj -c C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\src\moving_sphere.cpp
 
 CMakeFiles/Canvas.dir/src/moving_sphere.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Canvas.dir/src/moving_sphere.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\graphics\projects\RayTracingTheRestOfYourLife\src\moving_sphere.cpp > CMakeFiles\Canvas.dir\src\moving_sphere.i
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\src\moving_sphere.cpp > CMakeFiles\Canvas.dir\src\moving_sphere.i
 
 CMakeFiles/Canvas.dir/src/moving_sphere.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Canvas.dir/src/moving_sphere.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\graphics\projects\RayTracingTheRestOfYourLife\src\moving_sphere.cpp -o CMakeFiles\Canvas.dir\src\moving_sphere.s
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\src\moving_sphere.cpp -o CMakeFiles\Canvas.dir\src\moving_sphere.s
 
 CMakeFiles/Canvas.dir/src/noise.obj: CMakeFiles/Canvas.dir/flags.make
 CMakeFiles/Canvas.dir/src/noise.obj: ../src/noise.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\graphics\projects\RayTracingTheRestOfYourLife\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Canvas.dir/src/noise.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Canvas.dir\src\noise.obj -c E:\graphics\projects\RayTracingTheRestOfYourLife\src\noise.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Canvas.dir/src/noise.obj"
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Canvas.dir\src\noise.obj -c C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\src\noise.cpp
 
 CMakeFiles/Canvas.dir/src/noise.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Canvas.dir/src/noise.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\graphics\projects\RayTracingTheRestOfYourLife\src\noise.cpp > CMakeFiles\Canvas.dir\src\noise.i
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\src\noise.cpp > CMakeFiles\Canvas.dir\src\noise.i
 
 CMakeFiles/Canvas.dir/src/noise.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Canvas.dir/src/noise.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\graphics\projects\RayTracingTheRestOfYourLife\src\noise.cpp -o CMakeFiles\Canvas.dir\src\noise.s
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\src\noise.cpp -o CMakeFiles\Canvas.dir\src\noise.s
 
 CMakeFiles/Canvas.dir/src/onb.obj: CMakeFiles/Canvas.dir/flags.make
 CMakeFiles/Canvas.dir/src/onb.obj: ../src/onb.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\graphics\projects\RayTracingTheRestOfYourLife\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Canvas.dir/src/onb.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Canvas.dir\src\onb.obj -c E:\graphics\projects\RayTracingTheRestOfYourLife\src\onb.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Canvas.dir/src/onb.obj"
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Canvas.dir\src\onb.obj -c C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\src\onb.cpp
 
 CMakeFiles/Canvas.dir/src/onb.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Canvas.dir/src/onb.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\graphics\projects\RayTracingTheRestOfYourLife\src\onb.cpp > CMakeFiles\Canvas.dir\src\onb.i
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\src\onb.cpp > CMakeFiles\Canvas.dir\src\onb.i
 
 CMakeFiles/Canvas.dir/src/onb.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Canvas.dir/src/onb.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\graphics\projects\RayTracingTheRestOfYourLife\src\onb.cpp -o CMakeFiles\Canvas.dir\src\onb.s
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\src\onb.cpp -o CMakeFiles\Canvas.dir\src\onb.s
 
 CMakeFiles/Canvas.dir/src/perlin.obj: CMakeFiles/Canvas.dir/flags.make
 CMakeFiles/Canvas.dir/src/perlin.obj: ../src/perlin.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\graphics\projects\RayTracingTheRestOfYourLife\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/Canvas.dir/src/perlin.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Canvas.dir\src\perlin.obj -c E:\graphics\projects\RayTracingTheRestOfYourLife\src\perlin.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/Canvas.dir/src/perlin.obj"
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Canvas.dir\src\perlin.obj -c C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\src\perlin.cpp
 
 CMakeFiles/Canvas.dir/src/perlin.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Canvas.dir/src/perlin.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\graphics\projects\RayTracingTheRestOfYourLife\src\perlin.cpp > CMakeFiles\Canvas.dir\src\perlin.i
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\src\perlin.cpp > CMakeFiles\Canvas.dir\src\perlin.i
 
 CMakeFiles/Canvas.dir/src/perlin.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Canvas.dir/src/perlin.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\graphics\projects\RayTracingTheRestOfYourLife\src\perlin.cpp -o CMakeFiles\Canvas.dir\src\perlin.s
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\src\perlin.cpp -o CMakeFiles\Canvas.dir\src\perlin.s
 
 CMakeFiles/Canvas.dir/src/rotate.obj: CMakeFiles/Canvas.dir/flags.make
 CMakeFiles/Canvas.dir/src/rotate.obj: ../src/rotate.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\graphics\projects\RayTracingTheRestOfYourLife\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/Canvas.dir/src/rotate.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Canvas.dir\src\rotate.obj -c E:\graphics\projects\RayTracingTheRestOfYourLife\src\rotate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/Canvas.dir/src/rotate.obj"
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Canvas.dir\src\rotate.obj -c C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\src\rotate.cpp
 
 CMakeFiles/Canvas.dir/src/rotate.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Canvas.dir/src/rotate.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\graphics\projects\RayTracingTheRestOfYourLife\src\rotate.cpp > CMakeFiles\Canvas.dir\src\rotate.i
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\src\rotate.cpp > CMakeFiles\Canvas.dir\src\rotate.i
 
 CMakeFiles/Canvas.dir/src/rotate.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Canvas.dir/src/rotate.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\graphics\projects\RayTracingTheRestOfYourLife\src\rotate.cpp -o CMakeFiles\Canvas.dir\src\rotate.s
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\src\rotate.cpp -o CMakeFiles\Canvas.dir\src\rotate.s
 
 CMakeFiles/Canvas.dir/src/sphere.obj: CMakeFiles/Canvas.dir/flags.make
 CMakeFiles/Canvas.dir/src/sphere.obj: ../src/sphere.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\graphics\projects\RayTracingTheRestOfYourLife\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/Canvas.dir/src/sphere.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Canvas.dir\src\sphere.obj -c E:\graphics\projects\RayTracingTheRestOfYourLife\src\sphere.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/Canvas.dir/src/sphere.obj"
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Canvas.dir\src\sphere.obj -c C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\src\sphere.cpp
 
 CMakeFiles/Canvas.dir/src/sphere.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Canvas.dir/src/sphere.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\graphics\projects\RayTracingTheRestOfYourLife\src\sphere.cpp > CMakeFiles\Canvas.dir\src\sphere.i
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\src\sphere.cpp > CMakeFiles\Canvas.dir\src\sphere.i
 
 CMakeFiles/Canvas.dir/src/sphere.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Canvas.dir/src/sphere.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\graphics\projects\RayTracingTheRestOfYourLife\src\sphere.cpp -o CMakeFiles\Canvas.dir\src\sphere.s
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\src\sphere.cpp -o CMakeFiles\Canvas.dir\src\sphere.s
 
 CMakeFiles/Canvas.dir/src/translate.obj: CMakeFiles/Canvas.dir/flags.make
 CMakeFiles/Canvas.dir/src/translate.obj: ../src/translate.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\graphics\projects\RayTracingTheRestOfYourLife\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/Canvas.dir/src/translate.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Canvas.dir\src\translate.obj -c E:\graphics\projects\RayTracingTheRestOfYourLife\src\translate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/Canvas.dir/src/translate.obj"
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Canvas.dir\src\translate.obj -c C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\src\translate.cpp
 
 CMakeFiles/Canvas.dir/src/translate.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Canvas.dir/src/translate.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\graphics\projects\RayTracingTheRestOfYourLife\src\translate.cpp > CMakeFiles\Canvas.dir\src\translate.i
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\src\translate.cpp > CMakeFiles\Canvas.dir\src\translate.i
 
 CMakeFiles/Canvas.dir/src/translate.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Canvas.dir/src/translate.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\graphics\projects\RayTracingTheRestOfYourLife\src\translate.cpp -o CMakeFiles\Canvas.dir\src\translate.s
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\src\translate.cpp -o CMakeFiles\Canvas.dir\src\translate.s
 
 CMakeFiles/Canvas.dir/src/xy_rect.obj: CMakeFiles/Canvas.dir/flags.make
 CMakeFiles/Canvas.dir/src/xy_rect.obj: ../src/xy_rect.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\graphics\projects\RayTracingTheRestOfYourLife\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/Canvas.dir/src/xy_rect.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Canvas.dir\src\xy_rect.obj -c E:\graphics\projects\RayTracingTheRestOfYourLife\src\xy_rect.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/Canvas.dir/src/xy_rect.obj"
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Canvas.dir\src\xy_rect.obj -c C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\src\xy_rect.cpp
 
 CMakeFiles/Canvas.dir/src/xy_rect.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Canvas.dir/src/xy_rect.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\graphics\projects\RayTracingTheRestOfYourLife\src\xy_rect.cpp > CMakeFiles\Canvas.dir\src\xy_rect.i
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\src\xy_rect.cpp > CMakeFiles\Canvas.dir\src\xy_rect.i
 
 CMakeFiles/Canvas.dir/src/xy_rect.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Canvas.dir/src/xy_rect.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\graphics\projects\RayTracingTheRestOfYourLife\src\xy_rect.cpp -o CMakeFiles\Canvas.dir\src\xy_rect.s
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\src\xy_rect.cpp -o CMakeFiles\Canvas.dir\src\xy_rect.s
 
 CMakeFiles/Canvas.dir/src/xz_rect.obj: CMakeFiles/Canvas.dir/flags.make
 CMakeFiles/Canvas.dir/src/xz_rect.obj: ../src/xz_rect.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\graphics\projects\RayTracingTheRestOfYourLife\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/Canvas.dir/src/xz_rect.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Canvas.dir\src\xz_rect.obj -c E:\graphics\projects\RayTracingTheRestOfYourLife\src\xz_rect.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/Canvas.dir/src/xz_rect.obj"
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Canvas.dir\src\xz_rect.obj -c C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\src\xz_rect.cpp
 
 CMakeFiles/Canvas.dir/src/xz_rect.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Canvas.dir/src/xz_rect.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\graphics\projects\RayTracingTheRestOfYourLife\src\xz_rect.cpp > CMakeFiles\Canvas.dir\src\xz_rect.i
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\src\xz_rect.cpp > CMakeFiles\Canvas.dir\src\xz_rect.i
 
 CMakeFiles/Canvas.dir/src/xz_rect.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Canvas.dir/src/xz_rect.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\graphics\projects\RayTracingTheRestOfYourLife\src\xz_rect.cpp -o CMakeFiles\Canvas.dir\src\xz_rect.s
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\src\xz_rect.cpp -o CMakeFiles\Canvas.dir\src\xz_rect.s
 
 CMakeFiles/Canvas.dir/src/yz_rect.obj: CMakeFiles/Canvas.dir/flags.make
 CMakeFiles/Canvas.dir/src/yz_rect.obj: ../src/yz_rect.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\graphics\projects\RayTracingTheRestOfYourLife\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/Canvas.dir/src/yz_rect.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Canvas.dir\src\yz_rect.obj -c E:\graphics\projects\RayTracingTheRestOfYourLife\src\yz_rect.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/Canvas.dir/src/yz_rect.obj"
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Canvas.dir\src\yz_rect.obj -c C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\src\yz_rect.cpp
 
 CMakeFiles/Canvas.dir/src/yz_rect.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Canvas.dir/src/yz_rect.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\graphics\projects\RayTracingTheRestOfYourLife\src\yz_rect.cpp > CMakeFiles\Canvas.dir\src\yz_rect.i
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\src\yz_rect.cpp > CMakeFiles\Canvas.dir\src\yz_rect.i
 
 CMakeFiles/Canvas.dir/src/yz_rect.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Canvas.dir/src/yz_rect.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\graphics\projects\RayTracingTheRestOfYourLife\src\yz_rect.cpp -o CMakeFiles\Canvas.dir\src\yz_rect.s
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\src\yz_rect.cpp -o CMakeFiles\Canvas.dir\src\yz_rect.s
 
 # Object files for target Canvas
 Canvas_OBJECTS = \
@@ -446,7 +446,7 @@ Canvas.exe: CMakeFiles/Canvas.dir/build.make
 Canvas.exe: CMakeFiles/Canvas.dir/linklibs.rsp
 Canvas.exe: CMakeFiles/Canvas.dir/objects1.rsp
 Canvas.exe: CMakeFiles/Canvas.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\graphics\projects\RayTracingTheRestOfYourLife\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking CXX executable Canvas.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking CXX executable Canvas.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Canvas.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -459,6 +459,6 @@ CMakeFiles/Canvas.dir/clean:
 .PHONY : CMakeFiles/Canvas.dir/clean
 
 CMakeFiles/Canvas.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\graphics\projects\RayTracingTheRestOfYourLife E:\graphics\projects\RayTracingTheRestOfYourLife E:\graphics\projects\RayTracingTheRestOfYourLife\cmake-build-debug E:\graphics\projects\RayTracingTheRestOfYourLife\cmake-build-debug E:\graphics\projects\RayTracingTheRestOfYourLife\cmake-build-debug\CMakeFiles\Canvas.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\cmake-build-debug C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\cmake-build-debug C:\Users\LiuKe\Documents\Computer\study\graphic\RTRestOfMyLife\cmake-build-debug\CMakeFiles\Canvas.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Canvas.dir/depend
 
