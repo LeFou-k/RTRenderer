@@ -1,3 +1,0 @@
-/mnt/e/graphics/projects/RayTracingTheNextWeek/build/CMakeFiles/rebuild_cache.dir
-/mnt/e/graphics/projects/RayTracingTheNextWeek/build/CMakeFiles/edit_cache.dir
-/mnt/e/graphics/projects/RayTracingTheNextWeek/build/CMakeFiles/Canvas.dir

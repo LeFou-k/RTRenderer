@@ -1,3 +1,0 @@
-E:/graphics/projects/RayTracingTheRestOfYourLife/cmake-build-release/CMakeFiles/Canvas.dir
-E:/graphics/projects/RayTracingTheRestOfYourLife/cmake-build-release/CMakeFiles/edit_cache.dir
-E:/graphics/projects/RayTracingTheRestOfYourLife/cmake-build-release/CMakeFiles/rebuild_cache.dir

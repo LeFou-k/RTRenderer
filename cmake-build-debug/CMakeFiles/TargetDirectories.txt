@@ -1,3 +1,0 @@
-C:/Users/LiuKe/Documents/Computer/study/graphic/RTRestOfMyLife/cmake-build-debug/CMakeFiles/Canvas.dir
-C:/Users/LiuKe/Documents/Computer/study/graphic/RTRestOfMyLife/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/LiuKe/Documents/Computer/study/graphic/RTRestOfMyLife/cmake-build-debug/CMakeFiles/rebuild_cache.dir

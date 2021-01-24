@@ -1,3 +1,0 @@
-"D:\CLion 2020.2.5\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Canvas.dir/objects.a
-C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\ar.exe cr CMakeFiles\Canvas.dir/objects.a @CMakeFiles\Canvas.dir\objects1.rsp
-C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  -fopenmp -O3 -DNDEBUG    -Wl,--whole-archive CMakeFiles\Canvas.dir/objects.a -Wl,--no-whole-archive  -o Canvas.exe -Wl,--out-implib,libCanvas.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Canvas.dir\linklibs.rsp
