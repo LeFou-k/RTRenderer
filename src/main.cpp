@@ -12,9 +12,6 @@
 #include "../include/noise.h"
 #include "../include/image_texture.h"
 #include "../include/diffuse_light.h"
-#include "../include/xy_rect.h"
-#include "../include/xz_rect.h"
-#include "../include/yz_rect.h"
 #include "../include/box.h"
 #include "../include/rotate.h"
 #include "../include/translate.h"
@@ -35,7 +32,7 @@
 //传递一个hittable_list，返回光线上最近的位置t
 
 
-color rayColor(Ray ray, const color &background, const hittable &world, int depth, shared_ptr<hittable> light) {
+color rayColor(ray ray, const color &background, const hittable &world, int depth, shared_ptr<hittable> light) {
     if (depth <= 0) return {0, 0, 0};
 
     hit_record rec;
@@ -58,7 +55,7 @@ color rayColor(Ray ray, const color &background, const hittable &world, int dept
     mixture_pdf mixed_pdf(light_ptr, srec.pdf_ptr);
 
 
-    Ray scattered = Ray(rec.p, mixed_pdf.generate(), ray.time());
+    ray scattered = ray(rec.p, mixed_pdf.generate(), ray.time());
     pdf_val = mixed_pdf.value(scattered.direction());
 
     //scatter_pdf: the pdf of scattering

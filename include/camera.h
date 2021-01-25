@@ -15,7 +15,7 @@ public:
            double _time0 = 0,
            double _time1 = 0
     );
-    Ray getRay(double s, double t) const;
+    ray getRay(double s, double t) const;
 private:
     point3 origin;
     point3 lower_left_corner;

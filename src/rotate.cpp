@@ -28,11 +28,11 @@ rotate::rotate(shared_ptr<hittable> p, double angle, int axis) : ptr(p), axis(ax
     box = aabb(min, max);
 }
 
-bool rotate::hit(const Ray &ray, double t_min, double t_max, hit_record &rec) const {
+bool rotate::hit(const ray &ray, double t_min, double t_max, hit_record &rec) const {
     auto origin = rotate_theta(ray.origin(), -angle);
     auto dir = rotate_theta(ray.direction(), -angle);
 
-    Ray rotate_r(origin, dir, ray.time());
+    ray rotate_r(origin, dir, ray.time());
     if(!ptr->hit(rotate_r, t_min, t_max, rec))
         return false;
 

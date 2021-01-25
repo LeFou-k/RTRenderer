@@ -13,8 +13,8 @@ class isotropic : public material{
 public:
     isotropic(color c): albedo(make_shared<solid_color>(c)){}
     isotropic(shared_ptr<texture> a): albedo(a) {}
-    virtual bool scatter(const Ray &ray_in, const hit_record &rec, scatter_record &srec) const override{
-//        scatter = Ray(rec.p, random_in_unit_sphere(), ray_in.time());
+    virtual bool scatter(const ray &ray_in, const hit_record &rec, scatter_record &srec) const override{
+//        scatter = ray(rec.p, random_in_unit_sphere(), ray_in.time());
 //        attenuation = albedo->value(rec.u, rec.v, rec.p);
         return true;
     }

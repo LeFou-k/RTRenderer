@@ -3,7 +3,7 @@
 #include "../include/onb.h"
 #include "../include/cosine_pdf.h"
 
-bool lambertian::scatter(const Ray &ray_in, const hit_record &rec, scatter_record &srec) const
+bool lambertian::scatter(const ray &ray_in, const hit_record &rec, scatter_record &srec) const
 {
     srec.is_specular = false;
     srec.attenuation = albedo->value(rec.u, rec.v, rec.p);
@@ -12,7 +12,7 @@ bool lambertian::scatter(const Ray &ray_in, const hit_record &rec, scatter_recor
     return true;
 }
 
-double lambertian::scatter_pdf(const Ray &ray_in, const hit_record &rec, const Ray &scatter) const {
+double lambertian::scatter_pdf(const ray &ray_in, const hit_record &rec, const ray &scatter) const {
     double cosine = dot(unit_vector(scatter.direction()), rec.normal);
     return cosine < 0.0 ? 0.0 : cosine / pi; //return 0 if scatter ray is under the face
 }

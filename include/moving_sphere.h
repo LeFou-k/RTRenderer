@@ -8,7 +8,7 @@ public:
     moving_sphere(point3 cen0, point3 cen1, double tm0, double tm1, double r, shared_ptr<material> m_ptr)
     : center0(cen0), center1(cen1), time0(tm0), time1(tm1), radius(r), mat_ptr(m_ptr){}
     point3 center(double time) const;
-    virtual bool hit(const Ray& r, double t_min, double t_max, hit_record& rec) const override;
+    virtual bool hit(const ray& r, double t_min, double t_max, hit_record& rec) const override;
     virtual bool bounding_box(double time0, double time1, aabb& output_box) const override;
 
 private:

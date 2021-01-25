@@ -15,4 +15,4 @@ endif()
 
 aux_source_directory(./src SOURCES_FILES)
 
-add_executable(Canvas ${SOURCES_FILES})
+add_executable(Canvas ${SOURCES_FILES} src/hittable.cpp)

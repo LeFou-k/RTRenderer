@@ -9,7 +9,7 @@
 class flip_face : public hittable{
 public:
     flip_face(shared_ptr<hittable> p) : ptr(p){}
-    virtual bool hit(const Ray &r, double t_min, double t_max, hit_record &rec) const override;
+    virtual bool hit(const ray &r, double t_min, double t_max, hit_record &rec) const override;
     virtual bool bounding_box(double time0, double time1, aabb &output_box) const override;
     virtual double pdf_value(const point3 &o, const vec3 &v) const override{
         return ptr->pdf_value(o, v);

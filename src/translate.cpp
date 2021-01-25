@@ -3,8 +3,8 @@
 //
 #include "../include/translate.h"
 
-bool translate::hit(const Ray &r, double t_min, double t_max, hit_record &rec) const {
-    Ray move_r(r.origin() - offset, r.direction(), r.time());
+bool translate::hit(const ray &r, double t_min, double t_max, hit_record &rec) const {
+    ray move_r(r.origin() - offset, r.direction(), r.time());
     if (!ptr->hit(move_r, t_min, t_max, rec))
         return false;
     rec.p += offset;

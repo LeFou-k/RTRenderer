@@ -7,7 +7,7 @@ bool constant_medium::bounding_box(double time0, double time1, aabb &output_box)
     return boundary->bounding_box(time0, time1, output_box);
 }
 
-bool constant_medium::hit(const Ray &r, double t_min, double t_max, hit_record &rec) const {
+bool constant_medium::hit(const ray &r, double t_min, double t_max, hit_record &rec) const {
     const bool enableDebug = false;
     const bool debugging = enableDebug && random_double() < 0.00001;
 

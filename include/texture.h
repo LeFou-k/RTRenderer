@@ -1,5 +1,6 @@
-#ifndef TEXTTURE_H
-#define TEXTTURE_H
+#ifndef TEXTURE_H
+#define TEXTURE_H
+
 #include "rtweekend.h"
 
 class texture{

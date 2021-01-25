@@ -3,7 +3,7 @@
 //
 #include "../include/flip_face.h"
 
-bool flip_face::hit(const Ray &r, double t_min, double t_max, hit_record &rec) const {
+bool flip_face::hit(const ray &r, double t_min, double t_max, hit_record &rec) const {
     if(!ptr->hit(r, t_min, t_max, rec))
         return false;
 

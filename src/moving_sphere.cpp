@@ -4,7 +4,7 @@ point3 moving_sphere::center(double time) const{
     return center0 + (time - time0) / (time1 - time0) * (center1 - center0);
 }
 
-bool moving_sphere::hit(const Ray& r, double t_min, double t_max, hit_record& rec) const
+bool moving_sphere::hit(const ray& r, double t_min, double t_max, hit_record& rec) const
 {
     auto oc = r.origin() - center(r.time());
     auto a = r.direction().length_squared();
