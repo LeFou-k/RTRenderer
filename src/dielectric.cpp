@@ -2,7 +2,7 @@
 #include "../include/hittable.h"
 
 
-bool dielectric::scatter(const ray &ray_in, const hit_record &rec, scatter_record &srec) const {
+bool dielectric::scatter(const Ray &ray_in, const hit_record &rec, scatter_record &srec) const {
 
     srec.attenuation = color(1.0, 1.0, 1.0);
     srec.is_specular = true;
@@ -21,7 +21,7 @@ bool dielectric::scatter(const ray &ray_in, const hit_record &rec, scatter_recor
     else
         dir = refract(unit_direction, rec.normal, refraction_ratio);
 
-    srec.specular_ray = ray(rec.p, dir, ray_in.time());
+    srec.specular_ray = Ray(rec.p, dir, ray_in.time());
     return true;
 }
 

@@ -55,7 +55,7 @@ inline double clamp(double x, double min, double max)
 
 //先定义变量再包括.h头文件
 //common headers 
-#include "ray.h"
+#include "Ray.h"
 #include "vec3.h"
 
 

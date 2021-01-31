@@ -1,6 +1,6 @@
 # RayTracing: rest of my life
 
-By studying the famous 'RayTracing' series, I tried to write down my own ray tracing renderer, which currently supports following functions below:
+By studying the famous 'RayTracing' series, I tried to write down my own Ray tracing renderer, which currently supports following functions below:
 
 - Path tracing using monto carlo integration
 - materials rendering include:

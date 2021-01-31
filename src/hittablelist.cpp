@@ -1,8 +1,8 @@
 #include "../include/hittablelist.h"
 
 
-//hittable_list::hit returns whether ray hit objects and the nearest hit_record
-bool hittable_list::hit(const ray& r, double t_min, double t_max, hit_record& rec) const
+//hittable_list::hit returns whether Ray hit objects and the nearest hit_record
+bool hittable_list::hit(const Ray& r, double t_min, double t_max, hit_record& rec) const
 {
     hit_record temp_rec;
     bool hit_anything = false;

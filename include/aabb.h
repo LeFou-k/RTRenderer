@@ -8,7 +8,7 @@ public:
     aabb(const point3& min, const point3& max): minimum(min), maximum(max){}
     point3 min() const{ return minimum; }
     point3 max() const{ return maximum; }
-    bool hit(const ray& r, double t_min, double t_max) const;
+    bool hit(const Ray& r, double t_min, double t_max) const;
     int get_longest_axis() const;
 private:
     point3 minimum;

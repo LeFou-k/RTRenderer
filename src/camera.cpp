@@ -27,8 +27,8 @@ camera::camera(point3 lookfrom,
     len_radius = aperture / 2;
 }
 
-ray camera::getRay(double s, double t) const{
+Ray camera::getRay(double s, double t) const{
     auto rd = random_in_unit_disk() * len_radius;
     auto offset = u * rd.y() + v * rd.x();
-    return ray(origin + offset, lower_left_corner + s * vertical + t * horizental - origin - offset, random_double(time0, time1));
+    return Ray(origin + offset, lower_left_corner + s * vertical + t * horizental - origin - offset, random_double(time0, time1));
 }

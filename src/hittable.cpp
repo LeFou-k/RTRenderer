@@ -3,7 +3,7 @@
 //
 #include "../include/hittable.h"
 
-bool xy_rect::hit(const ray& r, double t_min, double t_max, hit_record& rec) const{
+bool xy_rect::hit(const Ray& r, double t_min, double t_max, hit_record& rec) const{
     double inD = 1.0 / r.direction().z();
     double t = (k - r.origin().z()) * inD;
 
@@ -31,7 +31,7 @@ bool xy_rect::bounding_box(double time0, double time1, aabb& output_box) const{
 }
 
 
-bool xz_rect::hit(const ray& r, double t_min, double t_max, hit_record& rec) const{
+bool xz_rect::hit(const Ray& r, double t_min, double t_max, hit_record& rec) const{
     double inD = 1.0 / r.direction().y();
     double t = (k - r.origin().y()) * inD;
 
@@ -62,7 +62,7 @@ bool xz_rect::bounding_box(double time0, double time1, aabb& output_box) const{
 //origin为视线与该平面的交点
 double xz_rect::pdf_value(const point3 &origin, const vec3 &v) const {
     hit_record rec;
-    if(!this->hit(ray(origin, v), 0.001, infinity, rec))
+    if(!this->hit(Ray(origin, v), 0.001, infinity, rec))
         return 0.0;
     double area = (x1 - x0) * (z1 - z0);
     auto dis_square = rec.t * rec.t * v.length_squared();
@@ -74,7 +74,7 @@ vec3 xz_rect::random(const point3 &origin) const {
     return point3(random_double(x0, x1), k, random_double(z0, z1)) - origin;
 }
 
-bool yz_rect::hit(const ray& r, double t_min, double t_max, hit_record& rec) const{
+bool yz_rect::hit(const Ray& r, double t_min, double t_max, hit_record& rec) const{
     double inD = 1.0 / r.direction().x();
     double t = (k - r.origin().x()) * inD;
 

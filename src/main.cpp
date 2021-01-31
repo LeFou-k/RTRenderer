@@ -32,7 +32,7 @@
 //传递一个hittable_list，返回光线上最近的位置t
 
 
-color rayColor(ray ray, const color &background, const hittable &world, int depth, shared_ptr<hittable> light) {
+color rayColor(Ray ray, const color &background, const hittable &world, int depth, shared_ptr<hittable> light) {
     if (depth <= 0) return {0, 0, 0};
 
     hit_record rec;
@@ -55,7 +55,7 @@ color rayColor(ray ray, const color &background, const hittable &world, int dept
     mixture_pdf mixed_pdf(light_ptr, srec.pdf_ptr);
 
 
-    ray scattered = ray(rec.p, mixed_pdf.generate(), ray.time());
+    Ray scattered = Ray(rec.p, mixed_pdf.generate(), ray.time());
     pdf_val = mixed_pdf.value(scattered.direction());
 
     //scatter_pdf: the pdf of scattering
@@ -416,7 +416,7 @@ int main() {
                   << std::flush;
         for (int i = 0; i < img_width; ++i) {
             double r = 0.0, g = 0.0, b = 0.0;
-#pragma omp parallel for reduction(+: r, g, b)
+#pragma omp parallel for reduction(+: r, g, b) default(none)
             for (int k = 0; k < samples_per_pixel; ++k) {
                 auto u = (j + random_double()) / (img_height - 1);
                 auto v = (i + random_double()) / (img_width - 1);

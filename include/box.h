@@ -10,7 +10,7 @@ class box : public hittable{
 public:
     box(){}
     box(const point3& p0, const point3& p1, shared_ptr<material> m_ptr);
-    virtual bool hit(const ray& ray, double t_min, double t_max, hit_record& rec) const override;
+    virtual bool hit(const Ray& ray, double t_min, double t_max, hit_record& rec) const override;
     virtual bool bounding_box(double time0, double time1, aabb& output_box) const override;
 private:
     point3 box_min;

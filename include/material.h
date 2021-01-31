@@ -6,7 +6,7 @@
 struct hit_record;
 
 struct scatter_record{
-    ray specular_ray;
+    Ray specular_ray;
     bool is_specular;
     color attenuation;
     shared_ptr<pdf> pdf_ptr;
@@ -14,14 +14,14 @@ struct scatter_record{
 
 class material{
 public:
-    //ray in, hit_record for input, attenuation and scatter for output
-    virtual bool scatter(const ray& ray_in, const hit_record& rec, scatter_record& srec) const {
+    //Ray in, hit_record for input, attenuation and scatter for output
+    virtual bool scatter(const Ray& ray_in, const hit_record& rec, scatter_record& srec) const {
         return false;
     }
-    virtual double scatter_pdf(const ray& ray_in, const hit_record& rec, const ray& scatter) const{
+    virtual double scatter_pdf(const Ray& ray_in, const hit_record& rec, const Ray& scatter) const{
         return 0;
     }
-    virtual color emitted(const ray& ray_in, const hit_record& record, double u, double v, const point3& p) const {
+    virtual color emitted(const Ray& ray_in, const hit_record& record, double u, double v, const point3& p) const {
         return color(0, 0, 0);
     }
 };
