@@ -213,6 +213,8 @@ public:
 
     inline double norm() { return sqrt(norm2()); }
 
+    inline double length() { return norm(); }
+
     inline vec2 normalize() {
         (*this) /= norm();
         return *this;
@@ -278,6 +280,7 @@ public:
 
     inline double norm() { return sqrt(norm2()); }
 
+    inline double length(){ return norm(); }
     inline static vec3 random() {
         return vec3(random_double(), random_double(), random_double());
     }
