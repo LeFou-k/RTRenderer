@@ -18,7 +18,7 @@ bool xy_rect::hit(const Ray& r, double t_min, double t_max, hit_record& rec) con
     rec.p = p;
     rec.t = t;
 
-    auto outward_normal = vec3(0, 0, 1);
+    auto outward_normal = vec(0, 0, 1);
     rec.set_face_normal(r, outward_normal);
     rec.mat_ptr = mat_ptr;
 
@@ -47,7 +47,7 @@ bool xz_rect::hit(const Ray& r, double t_min, double t_max, hit_record& rec) con
     rec.p = p;
     rec.t = t;
 
-    auto outward_normal = vec3(0, 1, 0);
+    auto outward_normal = vec(0, 1, 0);
     rec.set_face_normal(r, outward_normal);
     rec.mat_ptr = mat_ptr;
 
@@ -60,7 +60,7 @@ bool xz_rect::bounding_box(double time0, double time1, aabb& output_box) const{
 }
 
 //origin为视线与该平面的交点
-double xz_rect::pdf_value(const point3 &origin, const vec3 &v) const {
+double xz_rect::pdf_value(const point3 &origin, const vec &v) const {
     hit_record rec;
     if(!this->hit(Ray(origin, v), 0.001, infinity, rec))
         return 0.0;
@@ -70,7 +70,7 @@ double xz_rect::pdf_value(const point3 &origin, const vec3 &v) const {
     return dis_square / cosine / area;
 }
 
-vec3 xz_rect::random(const point3 &origin) const {
+vec xz_rect::random(const point3 &origin) const {
     return point3(random_double(x0, x1), k, random_double(z0, z1)) - origin;
 }
 
@@ -88,7 +88,7 @@ bool yz_rect::hit(const Ray& r, double t_min, double t_max, hit_record& rec) con
     rec.p = p;
     rec.t = t;
 
-    auto outward_normal = vec3(1, 0, 0);
+    auto outward_normal = vec(1, 0, 0);
     rec.set_face_normal(r, outward_normal);
     rec.mat_ptr = mat_ptr;
 

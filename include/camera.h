@@ -7,7 +7,7 @@ class camera{
 public:
     camera(point3 lookfrom, 
            point3 lookat, 
-           vec3 vup, 
+           vec vup,
            double vfov, 
            double aspect_ratio, 
            double aperture, 
@@ -19,9 +19,9 @@ public:
 private:
     point3 origin;
     point3 lower_left_corner;
-    vec3 horizental;
-    vec3 vertical;
-    vec3 u, v, w;
+    vec horizental;
+    vec vertical;
+    vec u, v, w;
     double len_radius;
     double time0, time1;
 };

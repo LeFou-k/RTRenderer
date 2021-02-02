@@ -1,9 +1,9 @@
 #include "../include/perlin.h"
 
 perlin::perlin(){
-    ranvec = new vec3[point_cnt];
+    ranvec = new vec[point_cnt];
     for(int i = 0; i < point_cnt; i++){
-        ranvec[i] = unit_vector(vec3::random(-1, 1));
+        ranvec[i] = unit_vector(vec::random(-1, 1));
     }
 
     perm_x = perlin_generate_perm();
@@ -47,7 +47,7 @@ double perlin::noise(const point3& p) const{
     auto j = static_cast<int>(floor(p.y()));
     auto k = static_cast<int>(floor(p.z()));
 
-    vec3 c[2][2][2];
+    vec c[2][2][2];
 
     for(int di = 0; di < 2; ++di){
         for(int dj = 0; dj < 2; ++dj){
@@ -63,7 +63,7 @@ double perlin::noise(const point3& p) const{
     return trilinear_interp(c, u, v, w);
 }
 
-double perlin::trilinear_interp(vec3 c[2][2][2], double u, double v, double w){
+double perlin::trilinear_interp(vec c[2][2][2], double u, double v, double w){
     auto accum = 0.0;
     auto uu = u * u * (3 - 2 * u);
     auto vv = v * v * (3 - 2 * v);
@@ -72,7 +72,7 @@ double perlin::trilinear_interp(vec3 c[2][2][2], double u, double v, double w){
     for(int i = 0; i < 2; ++i){
         for(int j = 0; j < 2; ++j){
             for(int k = 0; k < 2; ++k){
-                vec3 weight_v(u - i, v - j, w - k);
+                vec weight_v(u - i, v - j, w - k);
                 accum += (i * uu + (1 - i) * (1 - uu)) * 
                          (j * vv + (1 - j) * (1 - vv)) * 
                          (k * ww + (1 - k) * (1 - ww)) * dot(weight_v, c[i][j][k]);

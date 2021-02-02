@@ -12,7 +12,7 @@ public:
 private:
     static const int point_cnt = 256;
     double* ranfloat;
-    vec3* ranvec;
+    vec* ranvec;
     int* perm_x;
     int* perm_y;
     int* perm_z;
@@ -20,7 +20,7 @@ private:
     static int* perlin_generate_perm();
 
     static void permute(int* p, int n);
-    static double trilinear_interp(vec3 c[2][2][2], double u, double v, double w);
+    static double trilinear_interp(vec c[2][2][2], double u, double v, double w);
 };
 
 #endif

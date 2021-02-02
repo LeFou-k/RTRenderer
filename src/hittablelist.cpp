@@ -33,7 +33,7 @@ bool hittable_list::bounding_box(double time0, double time1, aabb& output_box) c
     return true;
 }
 
-double hittable_list::pdf_value(const point3 &o, const vec3 &v) const {
+double hittable_list::pdf_value(const point3 &o, const vec &v) const {
     double weight = 1.0 / objects.size();
     auto sum = 0.0;
     for(const auto& object: objects){
@@ -42,7 +42,7 @@ double hittable_list::pdf_value(const point3 &o, const vec3 &v) const {
     return sum;
 }
 
-vec3 hittable_list::random(const point3 &o) const {
+vec hittable_list::random(const point3 &o) const {
     auto int_size = static_cast<int>(objects.size());
 
     return objects[random_int(0, int_size - 1)]->random(o);

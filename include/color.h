@@ -1,7 +1,7 @@
 #ifndef COLOR_H
 #define COLOR_H
 
-#include "vec3.h"
+#include "vec.h"
 #include "rtweekend.h"
 #include <fstream>
 

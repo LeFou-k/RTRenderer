@@ -11,10 +11,10 @@ public:
         p[0] = p0;
         p[1] = p1;
     }
-    virtual double value(const vec3 &direction) const override{
+    virtual double value(const vec &direction) const override{
         return 0.5 * (p[0]->value(direction) + p[1]->value(direction));
     }
-    virtual vec3 generate() const override{
+    virtual vec generate() const override{
         return random_double() < 0.5 ? p[0]->generate() : p[1]->generate();
     }
 private:

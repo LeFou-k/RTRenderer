@@ -27,8 +27,8 @@ bool sphere::hit(const Ray& r, double t_min, double t_max, hit_record& rec) cons
 
 bool sphere::bounding_box(double time0, double time1, aabb& bounding_box) const
 {
-    bounding_box = aabb(center - vec3(radius, radius, radius),
-                        center + vec3(radius, radius, radius));
+    bounding_box = aabb(center - vec(radius, radius, radius),
+                        center + vec(radius, radius, radius));
     return true;
 }
 
@@ -40,7 +40,7 @@ void sphere::get_sphere_uv(const point3& p, double& u,  double& v){
     v = theta / pi;
 }
 
-double sphere::pdf_value(const point3 &o, const vec3 &v) const {
+double sphere::pdf_value(const point3 &o, const vec &v) const {
     hit_record rec;
     if(!this->hit(Ray(o, v), 0.001, infinity, rec))
         return 0.0;
@@ -50,7 +50,7 @@ double sphere::pdf_value(const point3 &o, const vec3 &v) const {
     return 1 / solid_angle;
 }
 
-vec3 sphere::random(const point3 &o) const {
+vec sphere::random(const point3 &o) const {
     auto dir = center - o;
     onb uvw;
     uvw.build_from(dir);

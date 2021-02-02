@@ -83,7 +83,7 @@ hittable_list random_scene() {
                     //diffuse
                     auto albedo = color::random() * color::random();
                     sphere_material = make_shared<lambertian>(albedo);
-                    auto center2 = center + vec3(0, random_double(0, 0.5), 0);
+                    auto center2 = center + vec(0, random_double(0, 0.5), 0);
                     world.add(make_shared<moving_sphere>(center, center2, 0.0, 1.0, 0.2, sphere_material));
 
                 } else if (choose_material < 0.95) {
@@ -153,12 +153,12 @@ hittable_list cornell_box() {
     shared_ptr<material> aluminum = make_shared<metal>(color(0.8, 0.85, 0.88), 0.0);
     shared_ptr<hittable> box1 = make_shared<box>(point3(0, 0, 0), point3(165, 330, 165), white);
     box1 = make_shared<rotate>(box1, 15, 1);
-    box1 = make_shared<translate>(box1, vec3(265, 0, 295));
+    box1 = make_shared<translate>(box1, vec(265, 0, 295));
     objects.add(box1);
 
 //    shared_ptr<hittable> box2 = make_shared<box>(point3(0, 0, 0), point3(165, 165, 165), white);
 //    box2 = make_shared<rotate>(box2, -18, 1);
-//    box2 = make_shared<translate>(box2, vec3(130, 0, 65));
+//    box2 = make_shared<translate>(box2, vec(130, 0, 65));
 //    objects.add(box2);
 
 
@@ -184,11 +184,11 @@ hittable_list cornell_smoke() {
 
     shared_ptr<hittable> box1 = make_shared<box>(point3(0, 0, 0), point3(165, 330, 165), white);
     box1 = make_shared<rotate>(box1, 15, 1);
-    box1 = make_shared<translate>(box1, vec3(265, 0, 295));
+    box1 = make_shared<translate>(box1, vec(265, 0, 295));
 
     shared_ptr<hittable> box2 = make_shared<box>(point3(0, 0, 0), point3(165, 165, 165), white);
     box2 = make_shared<rotate>(box2, -18, 1);
-    box2 = make_shared<translate>(box2, vec3(130, 0, 65));
+    box2 = make_shared<translate>(box2, vec(130, 0, 65));
 
 
     objects.add(make_shared<constant_medium>(box1, 0.01, color(0, 0, 0)));
@@ -225,7 +225,7 @@ hittable_list final_scene() {
     objects.add(make_shared<xz_rect>(123, 423, 147, 412, 554, light));
     //add moving sphere
     auto center1 = point3(400, 400, 200);
-    auto center2 = center1 + vec3(30, 0, 0);
+    auto center2 = center1 + vec(30, 0, 0);
     auto moving_sphere_material = make_shared<lambertian>(color(0.7, 0.3, 0.1));
     objects.add(make_shared<moving_sphere>(center1, center2, 0, 1, 50, moving_sphere_material));
     //add dielectric ball
@@ -262,7 +262,7 @@ hittable_list final_scene() {
     }
     //rotate box2
     objects.add(make_shared<translate>(make_shared<rotate>(make_shared<bvh_node>(boxes2, 0.0, 1.0), 15, 1),
-                                       vec3(-100, 270, 395)));
+                                       vec(-100, 270, 395)));
 
     return objects;
 }
@@ -396,7 +396,7 @@ int main() {
 
     //camera
 
-    vec3 vup(0, 1, 0);
+    vec vup(0, 1, 0);
     auto dis_to_focus = 10.0;
     camera cam(lookfrom, lookat, vup, vfov, aspect_ratio, aperture, dis_to_focus, 0.0, 1.0);
 
