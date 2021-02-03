@@ -41,7 +41,7 @@ bool constant_medium::hit(const Ray &r, double t_min, double t_max, hit_record &
                   << "rec.t = " << rec.t << "\n"
                   << "rec.p = " << rec.p << "\n";
     }
-    rec.normal = vec(1, 0, 0);
+    rec.normal = vec3(1, 0, 0);
     rec.front_face = true;
     rec.mat_ptr = phase_function;
 

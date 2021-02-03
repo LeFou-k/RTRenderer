@@ -117,9 +117,9 @@ inline vec<n> operator-(const vec<n> &u, const vec<n> &v) {
 
 template<int n>
 inline vec<n> operator*(const vec<n> &u, const vec<n> &v) {
-    double res = 0;
+    vec<n> res;
     for (int i = 0; i < n; ++i) {
-        res += u[i] * v[i];
+        res[i] = u[i] * v[i];
     }
     return res;
 }

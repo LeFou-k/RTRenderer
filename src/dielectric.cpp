@@ -9,13 +9,13 @@ bool dielectric::scatter(const Ray &ray_in, const hit_record &rec, scatter_recor
     srec.pdf_ptr = nullptr;
 
     double refraction_ratio = rec.front_face ? 1.0 / ir : ir;
-    vec unit_direction = unit_vector(ray_in.direction());
-    
+    vec3 unit_direction = unit_vector(ray_in.direction());
+
     auto cos_theta = fmin(dot(-unit_direction,rec.normal), 1.0);
     auto sin_theta = sqrt(1 - cos_theta * cos_theta);
 
     bool cannot_refract = refraction_ratio * sin_theta > 1.0;
-    vec dir;
+    vec3 dir;
     if(cannot_refract || reflectance(cos_theta,refraction_ratio) > random_double()) \
         dir = reflect(unit_direction, rec.normal);
     else
