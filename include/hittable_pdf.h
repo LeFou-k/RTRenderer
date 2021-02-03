@@ -11,10 +11,10 @@ class hittable_pdf : public pdf{
 public:
     //origin is the not the hittable point, but the Ray origin point
     hittable_pdf(shared_ptr<hittable> p, const point3& origin): ptr(p), o(origin){}
-    virtual double value(const vec &direction) const override{
+    virtual double value(const vec3 &direction) const override{
         return ptr->pdf_value(o, direction);
     }
-    virtual vec generate() const override{
+    virtual vec3 generate() const override{
         return ptr->random(o);
     }
 private:

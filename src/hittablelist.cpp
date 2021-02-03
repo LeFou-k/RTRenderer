@@ -42,7 +42,7 @@ double hittable_list::pdf_value(const point3 &o, const vec &v) const {
     return sum;
 }
 
-vec hittable_list::random(const point3 &o) const {
+vec3 hittable_list::random(const point3 &o) const {
     auto int_size = static_cast<int>(objects.size());
 
     return objects[random_int(0, int_size - 1)]->random(o);

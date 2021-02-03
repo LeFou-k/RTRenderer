@@ -9,9 +9,9 @@
 
 class cosine_pdf : public pdf{
 public:
-    cosine_pdf(const vec& w){ uvw.build_from(w); }
-    virtual double value(const vec &direction) const override;
-    virtual vec generate() const override;
+    cosine_pdf(const vec3& w){ uvw.build_from(w); }
+    virtual double value(const vec3 &direction) const override;
+    virtual vec3 generate() const override;
 
 private:
     onb uvw;

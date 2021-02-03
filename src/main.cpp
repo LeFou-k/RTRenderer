@@ -417,7 +417,7 @@ int main() {
         for (int i = 0; i < img_width; ++i) {
             double r = 0.0, g = 0.0, b = 0.0;
 
-#pragma omp parallel for reduction(+: r, g, b) default(none) private(i, j) shared(samples_per_pixel, img_height, img_width, cam, background, bvh_tree, maxdepth, lights)
+#pragma omp parallel for reduction(+: r, g, b) default(none) private(i, j) shared(samples_per_pixel, img_height, img_width, cam, background, bvh_tree, max_depth, lights)
             for (int k = 0; k < samples_per_pixel; ++k) {
                 auto u = (j + random_double()) / (img_height - 1);
                 auto v = (i + random_double()) / (img_width - 1);

@@ -2,7 +2,7 @@
 
 camera::camera(point3 lookfrom, 
     point3 lookat, 
-    vec vup,
+    vec3 vup,
     double vfov, 
     double aspect_ratio, 
     double aperture, 

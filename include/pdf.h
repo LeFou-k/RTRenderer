@@ -8,8 +8,8 @@
 
 class pdf {
 public:
-    virtual double value(const vec& direction) const = 0;
-    virtual vec generate() const = 0;
+    virtual double value(const vec3& direction) const = 0;
+    virtual vec3 generate() const = 0;
 };
 
 

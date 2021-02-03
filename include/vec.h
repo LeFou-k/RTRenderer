@@ -276,9 +276,9 @@ public:
         return *this *= 1 / t;
     }
 
-    inline double norm2() { return v[0] * v[0] + v[1] * v[1] + v[2] * v[2]; }
+    inline double norm2() const { return v[0] * v[0] + v[1] * v[1] + v[2] * v[2]; }
 
-    inline double norm() { return sqrt(norm2()); }
+    inline double norm() const { return sqrt(norm2()); }
 
     inline double length(){ return norm(); }
     inline static vec3 random() {
