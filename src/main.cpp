@@ -359,7 +359,7 @@ int main() {
             aspect_ratio = 1.0;
             img_width = 600;
             img_height = static_cast<int>(img_width / aspect_ratio);
-            samples_per_pixel = 10000;
+            samples_per_pixel = 100;
             background = color(0, 0, 0);
             lookfrom = point3(278, 278, -800);
             lookat = point3(278, 278, 0);
@@ -406,7 +406,7 @@ int main() {
 
     //render
 
-    FILE *fp = fopen("../image/CornellBox_final_spp10000.ppm", "wb");
+    FILE *fp = fopen("../image/CornellBox_test_spp100.ppm", "wb");
 
     (void) fprintf(fp, "P6\n%d %d\n255\n", img_width, img_height);
 
