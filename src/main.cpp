@@ -405,8 +405,8 @@ int main() {
     auto start = std::chrono::system_clock::now();
 
     //render
-
-    FILE *fp = fopen("../image/CornellBox_test_spp100.ppm", "wb");
+    auto filename = "../image/CornellBox_test_spp100.ppm";
+    FILE *fp = fopen(filename, "wb");
 
     (void) fprintf(fp, "P6\n%d %d\n255\n", img_width, img_height);
 
@@ -432,7 +432,7 @@ int main() {
     fclose(fp);
     auto stop = std::chrono::system_clock::now();
 
-    std::cout << "\nRendering done.\n";
+    std::cout << "\nRendering done\n. Image has been written to " << filename << "\n";
     std::cout << "Time taken: " << std::chrono::duration_cast<std::chrono::hours>(stop - start).count() << " hours\n";
     std::cout << "          : " << std::chrono::duration_cast<std::chrono::minutes>(stop - start).count()
               << " minutes\n";
