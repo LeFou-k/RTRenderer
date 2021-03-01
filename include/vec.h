@@ -53,7 +53,7 @@ public:
     }
 
     inline double norm2() const {
-        return (*this) * (*this);
+        return dot(*this, *this);
     }
 
     inline double norm() const {
@@ -315,11 +315,11 @@ inline vec3 sqrt(vec3 v) {
 
 //get a random vector in unit sphere space:
 inline vec3 random_in_unit_sphere() {
-    while (true) {
-        auto p = vec3::random(-1, 1);
-        if (p.norm2() >= 1) continue;
-        return p;
+    auto p = vec3::random(-1, 1);
+    while (p.norm2() >= 1){
+        p = vec3::random(-1, 1);
     }
+    return p;
 }
 
 inline vec3 random_unit_vector() {

@@ -405,8 +405,8 @@ int main() {
     auto start = std::chrono::system_clock::now();
 
     //render
-
-    FILE *fp = fopen("../image/CornellBox_final_spp100.ppm", "wb");
+    auto filename = "../image/CornellBox_test_spp100.ppm";
+    FILE *fp = fopen(filename, "wb");
 
     (void) fprintf(fp, "P6\n%d %d\n255\n", img_width, img_height);
 
@@ -417,7 +417,7 @@ int main() {
         for (int i = 0; i < img_width; ++i) {
             double r = 0.0, g = 0.0, b = 0.0;
 
-#pragma omp parallel for reduction(+: r, g, b) default(none) private(i, j) shared(samples_per_pixel, img_height, img_width, cam, background, bvh_tree, lights)
+//#pragma omp parallel for reduction(+: r, g, b) default(none) private(i, j) shared(samples_per_pixel, img_height, img_width, cam, background, bvh_tree, lights)
             for (int k = 0; k < samples_per_pixel; ++k) {
                 auto u = (j + random_double()) / (img_height - 1);
                 auto v = (i + random_double()) / (img_width - 1);
@@ -433,7 +433,7 @@ int main() {
     fclose(fp);
     auto stop = std::chrono::system_clock::now();
 
-    std::cout << "\nRendering done.\n";
+    std::cout << "\nRendering done. \nImage has been written to " << filename << "\n";
     std::cout << "Time taken: " << std::chrono::duration_cast<std::chrono::hours>(stop - start).count() << " hours\n";
     std::cout << "          : " << std::chrono::duration_cast<std::chrono::minutes>(stop - start).count()
               << " minutes\n";
