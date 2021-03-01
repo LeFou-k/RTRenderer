@@ -359,7 +359,7 @@ int main() {
             aspect_ratio = 1.0;
             img_width = 600;
             img_height = static_cast<int>(img_width / aspect_ratio);
-            samples_per_pixel = 10;
+            samples_per_pixel = 1;
             background = color(0, 0, 0);
             lookfrom = point3(278, 278, -800);
             lookat = point3(278, 278, 0);
@@ -405,7 +405,7 @@ int main() {
     auto start = std::chrono::system_clock::now();
 
     //render
-    auto filename = "../image/CornellBox_test_spp10.ppm";
+    auto filename = "../image/CornellBox_test_spp1.ppm";
     FILE *fp = fopen(filename, "wb");
 
     (void) fprintf(fp, "P6\n%d %d\n255\n", img_width, img_height);
@@ -416,7 +416,7 @@ int main() {
                   << std::flush;
         for (int i = 0; i < img_width; ++i) {
             double r = 0.0, g = 0.0, b = 0.0;
-#pragma omp parallel for reduction(+: r, g, b) default(none)
+//#pragma omp parallel for reduction(+: r, g, b) default(none)
             for (int k = 0; k < samples_per_pixel; ++k) {
                 auto u = (j + random_double()) / (img_height - 1);
                 auto v = (i + random_double()) / (img_width - 1);
@@ -424,6 +424,9 @@ int main() {
                 r += temp_color.x();
                 g += temp_color.y();
                 b += temp_color.z();
+                if(r != 0 || g != 0 || b != 0){
+                    rayColor(cam.getRay(u, v), background, bvh_tree, max_depth, lights);
+                }
             }
             write_color(fp, color(r, g, b), samples_per_pixel);
 
